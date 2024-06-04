@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="testo/xsl" href="delibere.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all1.dtd">
+
+<!-- Info Generali sulla raccolta di delibere-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="delibere">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main"> Deliberazioni del podestà relative alla Statua di Costanzo Ciano </title>
+                <title type="sub"> Edizione digitale </title>   
+            </titleStmt>
+            <editionStmt>
+                <edition> Edizione digitale di <date when="07-2024">Aprile 2024</date>
+                </edition>
+                <respStmt>
+                    <resp>Il progetto è a cura di:</resp>
+                    <name>Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>La codifica è stata effettuata da:</resp>
+                    <name xml:id="WB"> William Brai </name>
+                    <name xml:id="GG"> Giovanni Graniero</name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <date>Aprile 2024</date>
+                <availability status="free"> 
+                    <p>Il progetto è stato realizzato per essere consultabile liberamente</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc xml:id="Raccolta_originale">
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>La Spezia</settlement>
+                        <repository xml:id="pos_deli">Biblioteca Civica <name>Ubaldo Mazzini</name></repository>
+                        <idno>Raccolta Deliberazioni del Podestà</idno>
+                    </msIdentifier>
+                    <physDesc xml:id="raccoltadeliberazioni"> 
+                        <objectDesc  form =" collection ">
+                            <supportDesc material = "paper"> 
+                                <support xml:id="deliberazioni123"> Raccolta di volumi di deliberazioni <material>cartacee</material></support>
+                                <extent>
+                                    <measureGrp unit="pages">
+                                        <measure quantity="2">2 pagine</measure>
+                                        <measure quantity="3">3 pagine</measure>
+                                        <measure quantity="2">2 pagine</measure>
+                                        <measure quantity="4">4 pagine </measure>
+                                    </measureGrp> 
+                                </extent>
+                                <condition xml:id="condiz_raccolta"> 
+                                    <p>I testi sono in buono stato, presentano alcuni timbri, date e firme, la carta è leggermente ingiallita.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2">
+                                    <p>In tutte le pagine delle deliberazioni è presente una colonna laterale dove si trovano 
+                                    i titoli delle deliberazioni, i timbri, le date di approvazione e pubblicazione ed eventuali firme.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc xml:id="firma_docint" hands="3">
+                            <p> Le pagine sono scritte a macchina (<persName ref="#PSP">Podestà di La Spezia</persName>); 
+                                le date sono riportate a mano assieme ai numeri dei visti della prefettura e della G.P.A.</p>
+                        </handDesc>
+                    </physDesc>
+                    <history xml:id="intero_doc">
+                        <origin> 
+                        Le deliberazioni sono state prodotte dal Podestà di La Spezia.
+                        I documenti registrano e descrivono le decisioni e le attività svolte dal Podestà di La Spezia attraverso le deliberazioni.
+                        </origin>
+                        <acquisition>
+                        Le deliberazioni del Podestà sono state raccolte dalla Biblioteca Civica <name>Ubaldo Mazzini</name><pc>.</pc> 
+                        </acquisition>
+                    </history>
+                    <!-- Info sul volume contenente la prima delibera-->
+                    <msPart xml:id="volume0"> 
+                        <msIdentifier>
+                            <collection>Deliberazioni dei Podestà 1939</collection>
+                            <idno>Deliberazioni del Podestà 1939: dal 8 Settembre al 31 Dicembre</idno>
+                            <msName>Volume 0</msName>
+                        </msIdentifier>
+                        <msContents>
+                            <!--Info Prima Delibera del 17/10/1939-->
+                            <msItem xml:id="delibera0" class="Infodelibere">
+                                <msDesc xml:id="Descr_del0">
+                                    <msIdentifier>
+                                        <repository>https://drive.google.com/drive/u/0/folders/1SrFFvTCU7ZmtYSfXMDP2kbYWk3DPmsAP</repository>
+                                        <collection>Deliberazioni dei Podestà 1939: Volume 3</collection>
+                                        <idno>1/816 Iniziativa per erigere a La Spezia un monumento a Costanzo Ciano.</idno>
+                                    </msIdentifier>
+                                    <head>Delibera del <date>17/10/1939</date></head>
+                                    <msContents>
+                                        <p>La delibera approva la costruzione di un monumento a La Spezia in onore di Costanzo Ciano, affidando l'incarico allo scultore Francesco Messina.</p>
+                                    </msContents>
+                                    <physDesc xml:id="delibera1710"> 
+                                        <objectDesc  form ="leaf">
+                                            <supportDesc material = "paper" source="https://drive.google.com/drive/u/0/folders/1SrFFvTCU7ZmtYSfXMDP2kbYWk3DPmsAP"> 
+                                                <support>Deliberazione <material>cartacea</material> composta da 2 pagine</support>
+                                                <extent>
+                                                    <measureGrp unit="pages">
+                                                        <measure quantity="2">2</measure>
+                                                    </measureGrp> 
+                                                </extent>
+                                                <condition xml:id="condiz_delibera0"> 
+                                                    <p>Il testo è in buono stato e facilmente leggibile, presenta alcuni timbri e date scritte a mano, la carta è leggermente ingiallita.</p>
+                                                </condition>
+                                            </supportDesc>
+                                            <layoutDesc>
+                                                <layout columns="2">
+                                                    <p>La prima e la seconda pagina presentano rispettivamente 45 e 25 righe, inclusi timbri e firme. La prima pagina è composta da 10 righe di introduzione, che indicano le date e i responsabili della deliberazione, e una colonna laterale di 11 righe contenente l'intestazione del documento. La seconda pagina continua con il testo della delibera e, nella parte inferiore, riporta le firme del segretario generale e del podestà Tullio Dall'Aria.</p>
+                                                </layout>
+                                            </layoutDesc>
+                                        </objectDesc>
+                                        <handDesc xml:id="firma_doc0" hands="2">
+                                            <p> Le pagine sono scritte a macchina (<persName ref="#PSP">Podestà di La Spezia</persName>); 
+                                                le date sono riportate a mano assieme ai numeri dei visti Giunta Provinciale Amministrativa di La Spezia</p>
+                                        </handDesc>
+                                    </physDesc>
+                                    <history>
+                                        <origin> 
+                                            La delibera autorizza la creazione di un monumento a La Spezia in memoria di Costanzo Ciano, riconoscendo il suo contributo storico e patriottico all'Italia, con l'assegnazione dell'incarico allo scultore Francesco Messina e la destinazione di 150.000 lire per l'opera.
+                                        </origin>
+                                    </history>
+                                </msDesc>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+
+                    <!--Info secondo volume contenente la seconda delibera-->
+                    <msPart xml:id="volume1"> 
+                        <msIdentifier>
+                            <collection>Deliberazioni dei Podestà 1940</collection>
+                            <idno>Deliberazioni del Podestà 1940: dal 8 Gennaio al 11 Aprile</idno>
+                            <msName>Volume 1</msName>
+                        </msIdentifier>
+                        <msContents>
+                            <!--Seconda Delibera del 26/02/1940-->
+                            <msItem xml:id="delibera1" class="Infodelibere">
+                                <msDesc xml:id="Descr_del1">
+                                    <msIdentifier>
+                                        <repository>https://drive.google.com/drive/u/0/folders/1SrFFvTCU7ZmtYSfXMDP2kbYWk3DPmsAP</repository>
+                                        <collection>Deliberazioni dei Podestà 1940: Volume 1</collection>
+                                        <idno>185. Lavori di fondazione e collocamento a posto del monumento a Costanzo Ciano</idno>
+                                    </msIdentifier>
+                                    <head>Delibera del <date>26/02/1940</date></head>
+                                    <msContents>
+                                        <p>La delibera descrive l'approvazione tecnica, finanziaria e contrattuale per la realizzazione del monumento a Costanzo Ciano</p>
+                                    </msContents>
+                                    <physDesc xml:id="delibera2602"> 
+                                        <objectDesc  form ="leaf">
+                                            <supportDesc material = "paper" source="https://drive.google.com/drive/u/0/folders/1SrFFvTCU7ZmtYSfXMDP2kbYWk3DPmsAP"> 
+                                                <support>Deliberazione <material>cartacea</material> composta da 3 pagine</support>
+                                                <extent>
+                                                    <measureGrp unit="pages">
+                                                        <measure quantity="3">3</measure>
+                                                    </measureGrp> 
+                                                </extent>
+                                                <condition xml:id="condiz_delibera1"> 
+                                                    <p>Il testo è in buono stato e facilmente leggibile, presenta alcuni timbri e date scritte a mano, la carta è leggermente ingiallita.
+                                                    Non presenta segni di cancellature o di deterioramento.</p>
+                                                </condition>
+                                            </supportDesc>
+                                            <layoutDesc>
+                                                <layout columns="2" ruledLines="16-33">
+                                                    <p>La prima e la terza pagina occupano una porzione del foglio e presentano rispettivamente 16 e 25 righe
+                                                    considerando anche timbri e firme. La seconda pagina è piena ed è lunga 33 righe considerando anche timbri e firme.
+                                                    In tutte le pagine è presente una colonna laterale dove si trovano i titoli delle deliberazioni, i timbri e le date
+                                                    di approvazione e pubblicazione.</p>
+                                                </layout>
+                                            </layoutDesc>
+                                        </objectDesc>
+                                        <handDesc xml:id="firma_doc1">
+                                            <p> Le pagine sono scritte a macchina (<persName ref="#PSP">Podestà di La Spezia</persName>); 
+                                                le date sono riportate a mano assieme ai numeri dei visti della prefettura</p>
+                                        </handDesc>
+                                    </physDesc>
+                                    <history>
+                                        <origin> 
+                                        La deliberazione è stata prodotta dal Podestà di La Spezia.
+                                        Il documento descrive l'urgenza di provvedere ai lavori di fondazione ed accessori assegnati alla Soc. An. Ing. Nino Ferrari
+                                        per il collocamento del monumento a Costanzo Ciano scolpito da Francesco Messina. 
+                                        Troviamo anche informazioni relative alla liquidazione del lavoro svolto e all'osservanza delle leggi vigenti sulla sicurezza dei lavoratori.
+                                        </origin>
+                                    </history>
+                                </msDesc>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                     <!--Info terzo Volume contenente la terza delibera-->
+                    <msPart xml:id="volume2"> 
+                        <msIdentifier>
+                            <collection>Deliberazioni dei Podestà  1940</collection>
+                            <idno>Deliberazioni del Podestà 1940: dal 11 Aprile al 8 Settembre</idno>
+                            <msName>Volume 2</msName>
+                        </msIdentifier>
+                        <msContents>
+                            <!--terza Delibera del 20/06/1940-->
+                            <msItem xml:id="delibera2" class="Infodelibere">
+                                <msDesc xml:id="Descr_del2">
+                                    <msIdentifier>
+                                        <repository>https://drive.google.com/drive/u/0/folders/1SrFFvTCU7ZmtYSfXMDP2kbYWk3DPmsAP</repository>
+                                        <collection>Deliberazioni dei Podestà 1940: Volume 2</collection>
+                                        <idno>525. Lavori di fondazione e collocamento a posto del monumento a Costanzo Ciano.</idno>
+                                    </msIdentifier>
+                                    <head>Delibera del <date>20/06/1940</date></head>
+                                    <msContents><p>la delibera riguarda l'approvazione di una perizia suppletiva per ulteriori lavori necessari per la realizzazione del monumento a Costanzo Ciano</p></msContents>
+                            
+                                    <physDesc xml:id="delibera2006"> 
+                                        <objectDesc  form ="leaf">
+                                            <supportDesc material = "paper" source="https://drive.google.com/drive/u/0/folders/1SrFFvTCU7ZmtYSfXMDP2kbYWk3DPmsAP"> 
+                                            <support>Deliberazione <material>cartacea</material> composta da 2 pagine</support>
+                                                <extent>
+                                                    <measureGrp unit="pages">
+                                                        <measure quantity="2">2</measure>
+                                                    </measureGrp> 
+                                                </extent>
+                                            <condition xml:id="condiz_delibera2"> 
+                                                <p>Il testo è in buono stato e facilmente leggibile, presenta alcuni timbri e date scritte a mano, la carta è leggermente ingiallita.
+                                                Non presenta segni di cancellature o di deterioramento.</p>
+                                            </condition>
+                                            </supportDesc>
+                                            <layoutDesc>
+                                                <layout columns="2" ruledLines="12-20">
+                                                    <p>Entrambe le pagine occupano una parte del foglio e presentano rispettivamente 20 e 12 righe
+                                                    considerando anche timbri e firme. In tutte le pagine è presente una colonna laterale dove si trovano i titoli delle deliberazioni, 
+                                                    i timbri e le date di approvazione e pubblicazione.</p>
+                                                </layout>
+                                            </layoutDesc>
+                                        </objectDesc>
+                                        <handDesc xml:id="firma_doc2">
+                                            <p> Le pagine sono scritte a macchina (<persName ref="#PSP">Podestà di La Spezia</persName>); 
+                                                le date sono riportate a mano assieme ai numeri dei visti della G.P.A</p>
+                                        </handDesc>
+                                    </physDesc>
+                                    <history>
+                                        <origin> 
+                                        La deliberazione richiama la deliberazione del 26/02/1940 ed è stata prodotta dal Podestà di La Spezia.
+                                        Il documento descrive l'esigenza di lavori aggiuntivi di fondazione e collocamento assegnati alla Soc. An. Ing. Nino Ferrari
+                                        per il collocamento del monumento a Costanzo Ciano nell'aiuola fronteggiante la facciata a mare del Palazzo del Governo.
+                                        Troviamo anche informazioni relative alla liquidazione del lavoro già svolto e di quello da svolgere. 
+                                        </origin>
+                                    </history>
+                                </msDesc>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <!--Info quarto volume contenente la quarta delibera-->
+                    <msPart xml:id="volume3"> 
+                        <msIdentifier>
+                            <collection>Deliberazioni dei Podestà 1940</collection>
+                            <idno>Deliberazioni del Podestà 1940: dal 8 Settembre al 30 Dicembre</idno>
+                            <msName>Volume 3</msName>
+                        </msIdentifier>
+                        <msContents>
+                            <!--Quarta Delibera del 13/12/1940-->
+                            <msItem xml:id="delibera3" class="Infodelibere">
+                                <msDesc xml:id="Descr_del3">
+                                    <msIdentifier>
+                                        <repository>https://drive.google.com/drive/u/0/folders/1SrFFvTCU7ZmtYSfXMDP2kbYWk3DPmsAP</repository>
+                                        <collection>Deliberazioni dei Podestà 1940: Volume 3</collection>
+                                        <idno>1073. Liquidazione dei lavori di fondazione e collocamento a posto del monumanto a C. Ciano.</idno>
+                                    </msIdentifier>
+                                    <head>Delibera del <date>13/02/1940</date></head>
+                                    <msContents><p></p></msContents>
+
+                                    <physDesc xml:id="delibera0712"> 
+                                        <objectDesc  form ="leaf">
+                                            <supportDesc material = "paper" source="https://drive.google.com/drive/u/0/folders/1SrFFvTCU7ZmtYSfXMDP2kbYWk3DPmsAP"> 
+                                            <support>Deliberazione <material>cartacea</material> composta da 4 pagine</support>
+                                                <extent>
+                                                    <measureGrp unit="pages">
+                                                        <measure quantity="4">4</measure>
+                                                    </measureGrp> 
+                                                </extent>
+                                            <condition xml:id="condiz_delibera3"> 
+                                                <p>Il testo è in buono stato e facilmente leggibile, presenta alcuni timbri e date scritte a mano, la carta è leggermente ingiallita.
+                                                Non presenta segni di cancellature o di deterioramento.</p>
+                                            </condition>
+                                            </supportDesc>
+                                            <layoutDesc>
+                                                <layout columns="2" ruledLines="12-20">
+                                                    <p>La prima e la quarta pagina occupano una parte del foglio e presentano rispettivamente 2 e 13 righe
+                                                    considerando anche timbri e firme. La seconda pagina e la terza sono piene e lunghe rispettivamente 34 e 36 righe 
+                                                    considerando anche timbri e firme. In tutte le pagine è presente una colonna laterale dove si trovano i titoli delle deliberazioni, 
+                                                    i timbri e le date di approvazione e pubblicazione.</p>
+                                                </layout>
+                                            </layoutDesc>
+                                        </objectDesc>
+                                        <handDesc xml:id="firma_doc3">
+                                            <p> Le pagine sono scritte a macchina (<persName ref="#PSP">Podestà di La Spezia</persName>); 
+                                                le date sono riportate a mano assieme ai numeri dei visti della G.P.A</p>
+                                        </handDesc>
+                                    </physDesc>
+                                    <history>
+                                        <origin> 
+                                        La deliberazione richiama le precedenti deliberazioni ed è stata prodotta dal Podestà di La Spezia.
+                                        Il documento descrive informazioni relative alla liquidazione del lavoro svolto dalle varie imprese e ditte 
+                                        che hanno partecipato alla realizzazione dei lavori di fondazione e collocamento del monumento a Ciano.
+                                        </origin>
+                                    </history>
+                                </msDesc>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                </msDesc>
+                <!--Lista delle persone presenti nelle delibere-->
+                <listPerson>
+                    <person xml:id="CostanzoCiano">
+                        <persName>
+                            <forename>Costanzo</forename>
+                            <surname>Ciano</surname>
+                            <roleName>Nato a Livorno nel 1876, è stato un militare e politico italiano, padre di Galeazzo Ciano e quindi consuocero di Benito Mussolini. 
+                                    Promosso capitano di fregata dall'agosto 1917 al comando di unità siluranti di superficie (MAS e torpediniere), 
+                                    nel febbraio 1918 prese parte con D'Annunzio e Luigi Rizzo all'operazione della Beffa di Buccari. 
+                                    Nel 1921 venne eletto deputato per i Fasci di combattimento. Il 5 febbraio 1924 venne nominato ministro delle poste e dei telegrafi, 
+                                    cui vennero aggiunte le comunicazioni. Sotto il suo ministero la radiofonia esordì in Italia con la trasmissione di un discorso di Mussolini, 
+                                    tenuto a Roma il 25 marzo di quell'anno. Presiedette il ministero fino al 1934, quando venne eletto presidente della Camera dei deputati del Regno d'Italia, 
+                                    Costanzo Ciano contribuì a promuovere l'ideologia fascista e a costruire un'immagine idealizzata di Mussolini, 
+                                    al fine di giustificare le azioni repressive e militaristiche del regime. Riconfermato in funzione di Presidente della Camera nel marzo del 1939 
+                                    per la nuova Camera dei Fasci e delle Corporazioni, morì improvvisamente il 26 giugno 1939, all'età di 63 anni. </roleName>
+                        </persName>
+                        <sex> M </sex>
+                    </person>
+                    <person xml:id="FrancescoMessina">
+                        <persName>
+                            <forename>Francesco</forename>
+                            <surname>Messina</surname>
+                            <roleName>Nato a Linguaglossa (Sicilia) il 15 dicembre 1900, è lo scultore della statua di Costanzo Ciano.Fin da giovanissimo iniziò a lavorare 
+                                    negli studi marmisti della città di Genova, l'ambiente di Genova era però molto limitante per Messina, aspetto che lo spinse fin da
+                                    subito a cercare nuovi spunti e nuove ispirazioni anche diametralmente opposte alla realtà in cui viveva. Fu molto interessato al futurismo, 
+                                    si avvicinò molto anche al movimento modernista e all'ambiente parigino. Ai primi anni venti risalgono anche le prime commissioni monumentali, 
+                                    primo fra tutti il Monumento ai Martiri di San Vincenzo Alto, del 1922. Dalla fine degli anni '20 in poi, la notorietà di Messina non farà altro che
+                                    crescere, sviluppandosi attorno ed all'interno del fascismo. Le sue sculture si distinguono per il realismo, l'eleganza delle forme e 
+                                    la capacità di trasmettere personalità e movimento mantenendo al contempo una forte connessione con la tradizione classica. Dopo il Fascismo e la guerra, 
+                                    la fama di Messina non ritornerà più a quella che era, anche se la sua produzione artistica non si fermerà e rimarrà professore ordinario.
+                                    Nell'ultima fase della sua carriera sarà conosciuto per lo più a livello internazionale. Muore a Milano nel 1995, la sua eredità custodita e 
+                                    mantenuta dalla figlia Paola.</roleName>
+                        </persName>
+                        <sex> M </sex>
+                    </person>
+                     <person xml:id="TullioDallAra">
+                        <persName>
+                            <forename>Tullio</forename>
+                            <surname>Dall'Ara</surname>
+                            <roleName>Podestà di La Spezia in carica dal 1938 al 1943.</roleName>
+                        </persName>
+                        <sex> M </sex>
+                    </person>
+                    <person xml:id="FrancescoAgnese">
+                        <persName>
+                            <forename>Francesco</forename>
+                            <surname>Agnese</surname>
+                            <roleName>Segretario Generale del Comune di La Spezia tra il 1938 e il 1943.</roleName>
+                        </persName>
+                        <sex> M </sex>
+                    </person>
+                    <person xml:id="NinoFerrari">
+                        <persName>
+                            <forename>Nino</forename>
+                            <surname>Ferrari</surname>
+                            <roleName>Ingegnere e architetto a capo dei lavori di fondazione e collocamento della statua</roleName>
+                        </persName>
+                        <sex> M </sex>
+                    </person>
+                    <person xml:id="CarloComana">
+                        <persName>
+                            <forename>Carlo</forename>
+                            <surname>Comana</surname>
+                            <roleName>Marmista e titolare della omonima ditta che ha fornito le basi in travertino</roleName>
+                        </persName>
+                        <sex> M </sex>
+                    </person>
+                    <person xml:id="ErmandoPellosini">
+                        <persName >
+                            <forename>Ermando</forename>
+                            <surname>Pellosini</surname>
+                            <roleName>Titolare della omonima ditta che ha fornito due bandiere nazionali e due della città</roleName>
+                        </persName>
+                        <sex> M </sex>
+                    </person>
+                    <person xml:id="TranquilloRossi">
+                        <persName >
+                            <forename>Tranquillo</forename>
+                            <surname>Rossi</surname>
+                            <roleName>Titolare della omonima ditta che ha fornito quattro pali greggi piallati</roleName>
+                        </persName>
+                        <sex> M </sex>
+                    </person>
+                    <person xml:id="NataleToracca">
+                        <persName >
+                            <forename>Natale</forename>
+                            <addName>Stefano</addName>
+                            <surname>Toracca</surname>
+                            <roleName>Titolare della omonima ditta che ha trasportato i pali greggi piallati</roleName>
+                        </persName>
+                        <sex> M </sex>
+                    </person>
+                </listPerson>
+                <!--Lista dei Luoghi presenti nelle delibere-->
+                <listPlace>
+                    <place xml:id="Spezia">
+                        <settlement type="località">La Spezia</settlement>
+                        <desc>Secondo Capoluogo della Liguria.</desc>
+                    </place>
+                    <place xml:id="Bergamo">
+                        <settlement type="località">Bergamo</settlement>
+                        <desc>Città della Lombardia a nord-est di Milano.</desc>
+                    </place>
+                    <place xml:id="PalazzoGoverno">
+                        <settlement>Palazzo del Governo (La Spezia) </settlement>
+                        <desc>Il progetto dell'edificio è opera dell'architetto Franco Oliva, personalità molto presente nel contesto culturale della Spezia nella prima metà del XX secolo.</desc>
+                    </place>
+                    <place xml:id="PalazzoCivico">
+                        <settlement>Palazzo Comunale (La Spezia) </settlement>
+                        <desc>Il palazzo comunale della Spezia, prospiciente l'attuale piazza Europa, è un edificio eretto nel 1933 dall'architetto Franco Oliva nel tipico stile razionalista dell'epoca.</desc>
+                    </place>
+                    <place xml:id="ComuneSpezia">
+                        <settlement>Comune di La Spezia </settlement>    
+                        <desc>È il secondo comune della regione per popolazione dopo Genova.</desc> 
+                    </place>
+                    <place xml:id="Cortellazzo">
+                        <settlement>Cortellazzo </settlement>    
+                        <desc>Frazione del comune di Jesolo, vicina alla foce del fiume Piave.</desc> 
+                    </place>
+                    <place xml:id="Buccari">
+                        <settlement>Buccari </settlement>
+                        <desc>Città della Croazia situata lungo la costa adriatica pochi chilometri a sud-est di Fiume.</desc>     
+                    </place>
+                    <place xml:id="Milano">
+                        <settlement>Milano </settlement>  
+                        <desc>É il capoluogo della Lombardia e il secondo comune più popoloso d'Italia.</desc>   
+                    </place>
+                </listPlace>
+                <!--Lista delle persoOrganizzazioni presenti nelle delibere-->
+                <listOrg>
+                    <head> Lista delle Organizzazioni ed Enti </head>
+                    <org xml:id="PodestàLaSpezia">
+                        <orgName type="podestà">Podestà di La Spezia</orgName>
+                        <desc> In Italia durante l'epoca fascista, l'organo monocratico a capo del governo di un comune.
+                        Dal 1926 al 1945 gli organi elettivi dei comuni italiani furono soppressi 
+                        e tutte le funzioni svolte in precedenza dal sindaco, dalla giunta comunale e dal consiglio comunale 
+                        furono trasferite al podestà, che era nominato dal governo tramite regio decreto. 
+                        Il podestà d'epoca fascista rimaneva in carica cinque anni con possibilità di rimozione o riconferma.
+                        </desc>
+                        <idno type="URI">https://it.wikipedia.org/wiki/Podestà_(fascismo)</idno>
+                    </org>
+                    <org xml:id="PrefetturaSpezia">
+                        <orgName type="ufficio"> Prefettura della Spezia </orgName>
+                        <desc> Organo che ha funzioni di rappresentanza generale del governo sul territorio della provincia 
+                        o della città metropolitana. È retta da un prefetto che ha il compito generale di garantire l'esercizio coordinato 
+                        dell'attività amministrativa degli uffici periferici dello Stato e vigilare sulle autorità amministrative. 
+                        In epoca fascista i prefetti furono uno degli strumenti di cui si avvalse Mussolini per la politica di centralizzazione 
+                        e rafforzamento del potere esecutivo. Il ruolo del prefetto fu, quindi, ulteriormente rafforzato e il regime si servì di istituti 
+                        quali il collocamento a riposo per ragioni di servizio o il collocamento a disposizione allo scopo di allontanare i prefetti sgraditi.
+                        </desc>
+                        <idno type="URI">https://it.wikipedia.org/wiki/Prefetto_(ordinamento_italiano)#Epoca_fascista</idno>
+                    </org>
+                    <org xml:id="UfficioMunicipaleSpezia">
+                        <orgName>Ufficio Municipale della Spezia </orgName>
+                        <desc> Ufficio che ospitava la consulta municipale, organo collegiale che durante il fascismo affiancava il podestà. 
+                        Era composta da almeno 6 consultori nominati dal prefetto o, nelle grandi città, direttamente dal Ministro dell'interno.
+                        </desc>
+                        <idno type="URI">https://it.wikipedia.org/wiki/Consulta_municipale</idno>
+                    </org>
+                    <org xml:id="GpaSpezia">
+                        <orgName type="ufficio"> Giunta Provinciale Amministrativa della Spezia </orgName>
+                        <desc>La giunta provinciale amministrativa (GPA) era un organo collegiale dello stato italiano presente in ogni provincia, 
+                        con competenza in tema di giustizia amministrativa. Durante l'epoca fascista era presieduta dal prefetto e costituita da due 
+                        consiglieri di prefettura designati dal ministro dell'Interno, dall'intendente di finanza, dal ragioniere capo della prefettura 
+                        (Con legge 18 giugno 1925, n. 1094), dall'ispettore provinciale (dal R.D. 3 marzo 1934 n. 383) e da quattro effettivi e due supplenti
+                         membri esterni all'amministrazione dello Stato, designati da parte del Segretario del Partito Nazionale Fascista.
+                        </desc>
+                        <idno type="URI">https://it.wikipedia.org/wiki/Giunta_provinciale_amministrativa</idno>
+                    </org>
+                    <org xml:id="ABrera">
+                        <orgName type="ditta"> Accademia di Brera </orgName>
+                        <desc> Accademia delle Belle Arti di Brera.
+                        </desc>
+                    </org>
+                    <org xml:id="SANinoFerrari">
+                        <orgName type="ditta"> Società Anonima Ingegner Nino Ferrari </orgName>
+                        <desc> Azienda a capo dei lavori di fondazione e collocamento della statua.
+                        </desc>
+                    </org>
+                    <org xml:id="DittaPellosiniErmando">
+                        <orgName type="ditta"> Ditta Pellosini Ermando </orgName>
+                        <desc> Ditta che ha fornito due bandiere nazionali e due della città per il monumento a Ciano.
+                        </desc>
+                    </org>
+                    <org xml:id="SARossiTranquillo">
+                        <orgName type="ditta"> Società Anonima Rossi Tranquillo </orgName>
+                        <desc> Ditta che ha fornito quattro pali greggi piallati per il monumento a Ciano.
+                        </desc>
+                    </org>
+                    <org xml:id="ITNataleToracca">
+                        <orgName type="ditta"> Impresa Trasporti Natale Toracca fu Stefano </orgName>
+                        <desc> Ditta che ha trasportato i pali greggi piallati.
+                        </desc>
+                    </org>
+                    <org xml:id="CantieriCozzani">
+                        <orgName type="ditta"> Cantieri Cozzani </orgName>
+                        <desc> Ditta che ha fornito manodopera e materiale per la sistemazione ad antenne dei pali.
+                        </desc>
+                    </org>
+                    <org xml:id="DCarloComana">
+                        <orgName type="ditta"> Ditta Carlo Comana </orgName>
+                        <desc>Ditta che ha fornito le basi in travertino.
+                        </desc>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!--Codifica testo immagine delle delibere-->
+    <facsimile xml:id="img_delibere">
+        <surfaceGrp xml:id="del_0">
+            <surface n="1" xml:id="surf_del0_pg1">
+                <graphic url="Delibera_17-10_1939_p1.jpg" width='950.4px' height='1486.4px'/>
+                <zone xml:id="linea_del0_pg1_1" rend="visible" rendition="Line" ulx="55" uly="70" lrx="172" lry="119"/>
+                <zone xml:id="linea_del0_pg1_2" rend="visible" rendition="Line" ulx="461" uly="7" lrx="531" lry="41"/>
+                <zone xml:id="linea_del0_pg1_3" rend="visible" rendition="Line" ulx="192" uly="98" lrx="840" lry="164"/>
+                <zone xml:id="linea_del0_pg1_4" rend="visible" rendition="Line" ulx="191" uly="165" lrx="851" lry="211"/>
+                <zone xml:id="linea_del0_pg1_5" rend="visible" rendition="Line" ulx="187" uly="216" lrx="795" lry="246"/>
+                <zone xml:id="linea_del0_pg1_6" rend="visible" rendition="Line" ulx="412" uly="247" lrx="635" lry="269"/>
+                <zone xml:id="linea_del0_pg1_7" rend="visible" rendition="Line" ulx="381" uly="273" lrx="715" lry="306"/>
+                <zone xml:id="linea_del0_pg1_8" rend="visible" rendition="Line" ulx="183" uly="312" lrx="830" lry="353"/>
+                <zone xml:id="linea_del0_pg1_9" rend="visible" rendition="Line" ulx="183" uly="370" lrx="364" lry="396"/>
+                <zone xml:id="linea_del0_pg1_10" rend="visible" rendition="Line" ulx="183" uly="398" lrx="871" lry="424"/>
+                <zone xml:id="linea_del0_pg1_11" rend="visible" rendition="Line" ulx="55" uly="444" lrx="123" lry="477"/>
+                <zone xml:id="linea_del0_pg1_12" rend="visible" rendition="Line" ulx="14" uly="482" lrx="163" lry="510"/>
+                <zone xml:id="linea_del0_pg1_13" rend="visible" rendition="Line" ulx="13" uly="516" lrx="176" lry="547"/>
+                <zone xml:id="linea_del0_pg1_14" rend="visible" rendition="Line" ulx="11" uly="554" lrx="179" lry="582"/>
+                <zone xml:id="linea_del0_pg1_15" rend="visible" rendition="Line" ulx="11" uly="590" lrx="183" lry="616"/>
+                <zone xml:id="linea_del0_pg1_16" rend="visible" rendition="Line" ulx="11" uly="624" lrx="174" lry="658"/>
+                <zone xml:id="linea_del0_pg1_17" rend="visible" rendition="Line" ulx="45" uly="662" lrx="137" lry="686"/>
+                <zone xml:id="linea_del0_pg1_18" rend="visible" rendition="Line" ulx="8" uly="690" lrx="177" lry="720"/>
+                <zone xml:id="linea_del0_pg1_19" rend="visible" rendition="Line" ulx="47" uly="729" lrx="135" lry="748"/>
+                <zone xml:id="linea_del0_pg1_20" rend="visible" rendition="Line" ulx="16" uly="755" lrx="127" lry="772"/>
+                <zone xml:id="linea_del0_pg1_21" rend="visible" rendition="Line" ulx="17" uly="775" lrx="170" lry="802"/>
+                <zone xml:id="linea_del0_pg1_22" rend="visible" rendition="Line" ulx="183" uly="426" lrx="874" lry="462"/>
+                <zone xml:id="linea_del0_pg1_23" rend="visible" rendition="Line" ulx="183" uly="464" lrx="877" lry="496"/>
+                <zone xml:id="linea_del0_pg1_24" rend="visible" rendition="Line" ulx="182" uly="498" lrx="859" lry="532"/>
+                <zone xml:id="linea_del0_pg1_25" rend="visible" rendition="Line" ulx="182" uly="535" lrx="866" lry="570"/>
+                <zone xml:id="linea_del0_pg1_26" rend="visible" rendition="Line" ulx="184" uly="571" lrx="885" lry="605"/>
+                <zone xml:id="linea_del0_pg1_27" rend="visible" rendition="Line" ulx="185" uly="609" lrx="756" lry="639"/>
+                <zone xml:id="linea_del0_pg1_28" rend="visible" rendition="Line" ulx="211" uly="644" lrx="883" lry="680"/>
+                <zone xml:id="linea_del0_pg1_29" rend="visible" rendition="Line" ulx="182" uly="682" lrx="883" lry="714"/>
+                <zone xml:id="linea_del0_pg1_30" rend="visible" rendition="Line" ulx="180" uly="717" lrx="475" lry="760"/>
+                <zone xml:id="linea_del0_pg1_31" rend="visible" rendition="Line" ulx="210" uly="761" lrx="900" lry="793"/>
+                <zone xml:id="linea_del0_pg1_32" rend="visible" rendition="Line" ulx="177" uly="799" lrx="899" lry="829"/>
+                <zone xml:id="linea_del0_pg1_33" rend="visible" rendition="Line" ulx="179" uly="832" lrx="916" lry="870"/>
+                <zone xml:id="linea_del0_pg1_34" rend="visible" rendition="Line" ulx="179" uly="872" lrx="921" lry="909"/>
+                <zone xml:id="linea_del0_pg1_35" rend="visible" rendition="Line" ulx="179" uly="916" lrx="937" lry="948"/>
+                <zone xml:id="linea_del0_pg1_36" rend="visible" rendition="Line" ulx="179" uly="952" lrx="914" lry="992"/>
+                <zone xml:id="linea_del0_pg1_37" rend="visible" rendition="Line" ulx="179" uly="995" lrx="899" lry="1032"/>
+                <zone xml:id="linea_del0_pg1_38" rend="visible" rendition="Line" ulx="178" uly="1036" lrx="443" lry="1076"/>
+                <zone xml:id="linea_del0_pg1_39" rend="visible" rendition="Line" ulx="180" uly="1080" lrx="939" lry="1107"/>
+                <zone xml:id="linea_del0_pg1_40" rend="visible" rendition="Line" ulx="180" uly="1112" lrx="936" lry="1151"/>
+                <zone xml:id="linea_del0_pg1_41" rend="visible" rendition="Line" ulx="178" uly="1156" lrx="933" lry="1199"/>
+                <zone xml:id="linea_del0_pg1_42" rend="visible" rendition="Line" ulx="178" uly="1202" lrx="523" lry="1245"/>
+                <zone xml:id="linea_del0_pg1_43" rend="visible" rendition="Line" ulx="212" uly="1246" lrx="941" lry="1291"/>
+                <zone xml:id="linea_del0_pg1_44" rend="visible" rendition="Line" ulx="179" uly="1292" lrx="497" lry="1332"/>
+                <zone xml:id="linea_del0_pg1_45" rend="visible" rendition="Line" ulx="485" uly="1337" lrx="692" lry="1387"/>
+            </surface>
+            <surface n="2" xml:id="surf_del0_pg2">
+                <graphic url="Delibera_17-10_1939_p2.jpg" width='950px' height='1274px'/>
+                <!--num in alto pagina 2-->  
+                <zone xml:id="linea_del0_pg2_1" rend="visible" rendition="Line" ulx="430" uly="0" lrx="490" lry="22"/>
+                <!--testo delibera 0 pg 2-->
+                <zone xml:id="linea_del0_pg2_2" rend="visible" rendition="Line" ulx="66" uly="96" lrx="820" lry="133" />
+                <zone xml:id="linea_del0_pg2_3" rend="visible" rendition="Line" ulx="86" uly="134" lrx="807" lry="164" />
+                <zone xml:id="linea_del0_pg2_4" rend="visible" rendition="Line" ulx="86" uly="165" lrx="495" lry="191" />
+                <zone xml:id="linea_del0_pg2_5" rend="visible" rendition="Line" ulx="66" uly="205" lrx="808" lry="237" />
+                <zone xml:id="linea_del0_pg2_6" rend="visible" rendition="Line" ulx="87" uly="244" lrx="807" lry="277" />
+                <zone xml:id="linea_del0_pg2_7" rend="visible" rendition="Line" ulx="87" uly="281" lrx="808" lry="311" />
+                <zone xml:id="linea_del0_pg2_8" rend="visible" rendition="Line" ulx="87" uly="321" lrx="210" lry="344" />
+                <zone xml:id="linea_del0_pg2_9" rend="visible" rendition="Line" ulx="61" uly="349" lrx="833" lry="384" />
+                <zone xml:id="linea_del0_pg2_10" rend="visible" rendition="Line" ulx="87" uly="395" lrx="827" lry="428" />
+                <zone xml:id="linea_del0_pg2_11" rend="visible" rendition="Line" ulx="87" uly="435" lrx="820" lry="463" />
+                <zone xml:id="linea_del0_pg2_12" rend="visible" rendition="Line" ulx="87" uly="472" lrx="820" lry="505" />
+                <zone xml:id="linea_del0_pg2_13" rend="visible" rendition="Line" ulx="87" uly="512" lrx="821" lry="546" />
+                <zone xml:id="linea_del0_pg2_14" rend="visible" rendition="Line" ulx="87" uly="554" lrx="821" lry="586" />
+                <zone xml:id="linea_del0_pg2_15" rend="visible" rendition="Line" ulx="87" uly="597" lrx="213" lry="625" />
+                <zone xml:id="linea_del0_pg2_16" rend="visible" rendition="Line" ulx="60" uly="631" lrx="827" lry="662" />
+                <zone xml:id="linea_del0_pg2_17" rend="visible" rendition="Line" ulx="87" uly="679" lrx="828" lry="706" />
+                <zone xml:id="linea_del0_pg2_18" rend="visible" rendition="Line" ulx="87" uly="717" lrx="284" lry="747" />
+                <zone xml:id="linea_del0_pg2_19" rend="visible" rendition="Line" ulx="57" uly="772" lrx="844" lry="787" />
+                <zone xml:id="linea_del0_pg2_20" rend="visible" rendition="Line" ulx="92" uly="803" lrx="469" lry="823" />
+                <zone xml:id="linea_del0_pg2_21" rend="visible" rendition="Line" ulx="592" uly="840" lrx="725" lry="863" />
+                <zone xml:id="linea_del0_pg2_22" rend="visible" rendition="Line" ulx="544" uly="879" lrx="796" lry="905" />
+                <zone xml:id="linea_del0_pg2_23" rend="visible" rendition="Line" points = ' 426,983 523,1134 902,968 859,877 ' />
+                <zone xml:id="linea_del0_pg2_24" rend="visible" rendition="Line" ulx="122" uly="965" lrx="395" lry="989" />
+                <zone xml:id="linea_del0_pg2_25" rend="visible" rendition="Line" ulx="116" uly="1005" lrx="400" lry="1035" />
+                <zone xml:id="linea_del0_pg2_26" rend="visible" rendition="Line" points = ' 254,1263 388,1261 293,826 259,826 ' />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="del_1">
+            <surface n="1" xml:id="surf_del1_pg1">
+                <graphic url="Delibera_26-2_1940_p1.jpg" width='950.4px' height='679.4px'/>
+                <!--intestazione delibera 1-->
+                <zone xml:id="linea_del1_pg1_1" rend="visible" rendition="Line" ulx="779" uly="12" lrx="950" lry="48"/>
+                <zone xml:id="linea_del1_pg1_2" rend="visible" rendition="Line" ulx="779" uly="52" lrx="949" lry="85"/>
+                <zone xml:id="linea_del1_pg1_3" rend="visible" rendition="Line" ulx="779" uly="89" lrx="949" lry="120"/>
+                <zone xml:id="linea_del1_pg1_4" rend="visible" rendition="Line" ulx="780" uly="123" lrx="947" lry="160"/>
+                <zone xml:id="linea_del1_pg1_5" rend="visible" rendition="Line" ulx="780" uly="162" lrx="946" lry="188"/>
+                <zone xml:id="linea_del1_pg1_6" rend="visible" rendition="Line" ulx="779" uly="192" lrx="950" lry="229"/>
+                <zone xml:id="linea_del1_pg1_7" rend="visible" rendition="Line" ulx="779" uly="232" lrx="946" lry="256"/>
+                <zone xml:id="linea_del1_pg1_8" rend="visible" rendition="Line" ulx="779" uly="257" lrx="947" lry="284"/>
+                <zone xml:id="linea_del1_pg1_9" rend="visible" rendition="Line" ulx="782" uly="288" lrx="947" lry="320"/>
+                <zone xml:id="linea_del1_pg1_10" rend="visible" rendition="Line" ulx="780" uly="324" lrx="945" lry="346"/>
+                <zone xml:id="linea_del1_pg1_11" rend="visible" rendition="Line" ulx="780" uly="349" lrx="945" lry="378"/>
+                <!--testo delibera 1-->
+                <zone xml:id="linea_del1_pg1_12" rend="visible" rendition="Line" ulx="87" uly="17" lrx="775" lry="53"/>
+                <zone xml:id="linea_del1_pg1_13" rend="visible" rendition="Line" ulx="88" uly="53" lrx="774" lry="88"/>
+                <zone xml:id="linea_del1_pg1_14" rend="visible" rendition="Line" ulx="88" uly="93" lrx="773" lry="120"/>
+                <zone xml:id="linea_del1_pg1_15" rend="visible" rendition="Line" ulx="87" uly="125" lrx="768" lry="156"/>
+                <zone xml:id="linea_del1_pg1_16" rend="visible" rendition="Line" ulx="87" uly="159" lrx="693" lry="194"/>
+                <zone xml:id="linea_del1_pg1_17" rend="visible" rendition="Line" ulx="86" uly="198" lrx="777" lry="225"/>
+                <zone xml:id="linea_del1_pg1_18" rend="visible" rendition="Line" ulx="85" uly="227" lrx="778" lry="262"/>
+                <zone xml:id="linea_del1_pg1_19" rend="visible" rendition="Line" ulx="85" uly="267" lrx="775" lry="296"/>
+                <zone xml:id="linea_del1_pg1_20" rend="visible" rendition="Line" ulx="85" uly="299" lrx="577" lry="333"/>
+                <zone xml:id="linea_del1_pg1_21" rend="visible" rendition="Line" ulx="84" uly="337" lrx="779" lry="369"/>
+                <zone xml:id="linea_del1_pg1_22" rend="visible" rendition="Line" ulx="84" uly="372" lrx="777" lry="399"/>
+                <zone xml:id="linea_del1_pg1_23" rend="visible" rendition="Line" ulx="84" uly="402" lrx="798" lry="437"/>
+                <zone xml:id="linea_del1_pg1_24" rend="visible" rendition="Line" ulx="85" uly="441" lrx="786" lry="471"/>
+                <zone xml:id="linea_del1_pg1_25" rend="visible" rendition="Line" ulx="76" uly="476" lrx="507" lry="509"/>
+                <zone xml:id="linea_del1_pg1_26" rend="visible" rendition="Line" ulx="77" uly="512" lrx="761" lry="542"/>
+                <zone xml:id="linea_del1_pg1_27" rend="visible" rendition="Line" ulx="78" uly="548" lrx="599" lry="580"/>
+            </surface>
+            <surface n="2" xml:id="surf_del1_pg2">
+                <graphic url="Delibera_26-2_1940_p2.jpg" width='950.4px' height='1483.4px'/>  
+                <!--num in alto pagina 2-->  
+                <zone xml:id="linea_del1_pg2_1" rend="visible" rendition="Line" ulx="495" uly="57" lrx="583" lry="100"/>
+                <!--testo del1 pagina 2-->
+                <zone xml:id="linea_del1_pg2_2" rend="visible" rendition="Line" ulx="171" uly="135" lrx="883" lry="164"/>
+                <zone xml:id="linea_del1_pg2_3" rend="visible" rendition="Line" ulx="185" uly="168" lrx="858" lry="202"/>
+                <zone xml:id="linea_del1_pg2_4" rend="visible" rendition="Line" ulx="711" uly="206" lrx="829" lry="242"/>
+                <zone xml:id="linea_del1_pg2_5" rend="visible" rendition="Line" ulx="167" uly="240" lrx="831" lry="282"/>    
+                <zone xml:id="linea_del1_pg2_6" rend="visible" rendition="Line" ulx="167" uly="285" lrx="839" lry="325"/>
+                <zone xml:id="linea_del1_pg2_7" rend="visible" rendition="Line" ulx="547" uly="326" lrx="830" lry="363"/>
+                <zone xml:id="linea_del1_pg2_8" rend="visible" rendition="Line" ulx="169" uly="367" lrx="877" lry="396"/>
+                <zone xml:id="linea_del1_pg2_9" rend="visible" rendition="Line" ulx="167" uly="403" lrx="310" lry="440"/>
+                <zone xml:id="linea_del1_pg2_10" rend="visible" rendition="Line" ulx="187" uly="442" lrx="887" lry="474"/>
+                <zone xml:id="linea_del1_pg2_11" rend="visible" rendition="Line" ulx="165" uly="477" lrx="866" lry="511"/>
+                <zone xml:id="linea_del1_pg2_12" rend="visible" rendition="Line" ulx="166" uly="515" lrx="870" lry="547"/>
+                <zone xml:id="linea_del1_pg2_13" rend="visible" rendition="Line" ulx="163" uly="552" lrx="884" lry="586"/>
+                <zone xml:id="linea_del1_pg2_14" rend="visible" rendition="Line" ulx="163" uly="589" lrx="279" lry="625"/>
+                <zone xml:id="linea_del1_pg2_15" rend="visible" rendition="Line" ulx="177" uly="631" lrx="691" lry="663"/>
+                <zone xml:id="linea_del1_pg2_16" rend="visible" rendition="Line" ulx="175" uly="668" lrx="819" lry="699"/>
+                <zone xml:id="linea_del1_pg2_17" rend="visible" rendition="Line" ulx="439" uly="704" lrx="628" lry="736"/>
+                <zone xml:id="linea_del1_pg2_18" rend="visible" rendition="Line" ulx="163" uly="741" lrx="887" lry="777"/>
+                <zone xml:id="linea_del1_pg2_19" rend="visible" rendition="Line" ulx="188" uly="782" lrx="888" lry="816"/>
+                <zone xml:id="linea_del1_pg2_20" rend="visible" rendition="Line" ulx="187" uly="824" lrx="887" lry="855"/>
+                <zone xml:id="linea_del1_pg2_21" rend="visible" rendition="Line" ulx="187" uly="863" lrx="894" lry="896"/>
+                <zone xml:id="linea_del1_pg2_22" rend="visible" rendition="Line" ulx="191" uly="901" lrx="877" lry="928"/>
+                <zone xml:id="linea_del1_pg2_23" rend="visible" rendition="Line" ulx="191" uly="936" lrx="327" lry="969"/>
+                <zone xml:id="linea_del1_pg2_24" rend="visible" rendition="Line" ulx="191" uly="975" lrx="881" lry="1011"/>
+                <zone xml:id="linea_del1_pg2_25" rend="visible" rendition="Line" ulx="169" uly="1016" lrx="246" lry="1048"/>
+                <zone xml:id="linea_del1_pg2_26" rend="visible" rendition="Line" ulx="184" uly="1051" lrx="866" lry="1088"/>
+                <zone xml:id="linea_del1_pg2_27" rend="visible" rendition="Line" ulx="184" uly="1093" lrx="747" lry="1128"/>
+                <zone xml:id="linea_del1_pg2_28" rend="visible" rendition="Line" ulx="166" uly="1132" lrx="864" lry="1167"/>
+                <zone xml:id="linea_del1_pg2_29" rend="visible" rendition="Line" ulx="187" uly="1172" lrx="872" lry="1205"/>
+                <zone xml:id="linea_del1_pg2_30" rend="visible" rendition="Line" ulx="569" uly="1210" lrx="876" lry="1253"/>
+                <zone xml:id="linea_del1_pg2_31" rend="visible" rendition="Line" ulx="164" uly="1251" lrx="887" lry="1286"/>
+                <zone xml:id="linea_del1_pg2_32" rend="visible" rendition="Line" ulx="199" uly="1289" lrx="878" lry="1317"/>
+                <zone xml:id="linea_del1_pg2_33" rend="visible" rendition="Line" ulx="198" uly="1324" lrx="882" lry="1357"/>
+                <zone xml:id="linea_del1_pg2_34" rend="visible" rendition="Line" ulx="200" uly="1367" lrx="886" lry="1398"/>
+            </surface>
+            <surface n="3" xml:id="surf_del1_pg3">
+                <graphic url="Delibera_26-2_1940_p3.jpg" width='950.4px' height='1018.4px'/>
+                <zone xml:id="linea_del1_pg3_1" rend="visible" rendition="Line" ulx="481" uly="23" lrx="557" lry="77" />
+                <zone xml:id="linea_del1_pg3_2" rend="visible" rendition="Line" ulx="792" uly="7" lrx="921" lry="114" />
+                <zone xml:id="linea_del1_pg3_3" rend="visible" rendition="Line" ulx="100" uly="119" lrx="534" lry="150"/>
+                <zone xml:id="linea_del1_pg3_4" rend="visible" rendition="Line" ulx="99" uly="157" lrx="795" lry="189"/>
+                <zone xml:id="linea_del1_pg3_5" rend="visible" rendition="Line" ulx="131" uly="194" lrx="787" lry="230"/>
+                <zone xml:id="linea_del1_pg3_6" rend="visible" rendition="Line" ulx="132" uly="237" lrx="807" lry="269"/>
+                <zone xml:id="linea_del1_pg3_7" rend="visible" rendition="Line" ulx="134" uly="275" lrx="793" lry="300"/>
+                <zone xml:id="linea_del1_pg3_8" rend="visible" rendition="Line" ulx="137" uly="310" lrx="798" lry="342"/>
+                <zone xml:id="linea_del1_pg3_9" rend="visible" rendition="Line" ulx="132" uly="351" lrx="641" lry="378"/>
+                <zone xml:id="linea_del1_pg3_10" rend="visible" rendition="Line" ulx="103" uly="386" lrx="798" lry="417"/>
+                <zone xml:id="linea_del1_pg3_11" rend="visible" rendition="Line" ulx="119" uly="425" lrx="767" lry="453"/>
+                <zone xml:id="linea_del1_pg3_12" rend="visible" rendition="Line" ulx="134" uly="462" lrx="761" lry="494"/>
+                <zone xml:id="linea_del1_pg3_13" rend="visible" rendition="Line" ulx="137" uly="505" lrx="778" lry="536"/>
+                <zone xml:id="linea_del1_pg3_14" rend="visible" rendition="Line" ulx="138" uly="546" lrx="413" lry="573"/>
+                <zone xml:id="linea_del1_pg3_15" rend="visible" rendition="Line" ulx="101" uly="576" lrx="627" lry="611"/>
+                <zone xml:id="linea_del1_pg3_16" rend="visible" rendition="Line" ulx="109" uly="617" lrx="782" lry="647"/>
+                <zone xml:id="linea_del1_pg3_17" rend="visible" rendition="Line" ulx="141" uly="656" lrx="785" lry="684"/>
+                <zone xml:id="linea_del1_pg3_18" rend="visible" rendition="Line" ulx="137" uly="697" lrx="786" lry="721"/>
+                <zone xml:id="linea_del1_pg3_19" rend="visible" rendition="Line" ulx="139" uly="734" lrx="767" lry="759"/>
+                <zone xml:id="linea_del1_pg3_20" rend="visible" rendition="Line" ulx="139" uly="768" lrx="788" lry="792"/>
+                <zone xml:id="linea_del1_pg3_21" rend="visible" rendition="Line" ulx="106" uly="803" lrx="438" lry="834"/>
+                <zone xml:id="linea_del1_pg3_22" rend="visible" rendition="Line" ulx="141" uly="846" lrx="778" lry="873"/>
+                <zone xml:id="linea_del1_pg3_23" rend="visible" rendition="Line" ulx="107" uly="887" lrx="779" lry="905"/>
+                <zone xml:id="linea_del1_pg3_24" rend="visible" rendition="Line" ulx="107" uly="924" lrx="779" lry="946"/>
+                <zone xml:id="linea_del1_pg3_25" rend="visible" rendition="Line" ulx="107" uly="961" lrx="380" lry="985"/>
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="del_2">
+            <surface n="1" xml:id="surf_del2_pg1">
+                <graphic url="Delibera_20-6_1940_p1.jpg" width='950.4px' height='840.4px'/>
+                <!--intestazione delibera 2-->
+                <zone xml:id="linea_del2_pg1_1" rend="visible" rendition="Line" ulx="807" uly="11" lrx="883" lry="32" />
+                <zone xml:id="linea_del2_pg1_2" rend="visible" rendition="Line" ulx="751" uly="49" lrx="947" lry="73" />
+                <zone xml:id="linea_del2_pg1_3" rend="visible" rendition="Line" ulx="751" uly="89" lrx="938" lry="106" />
+                <zone xml:id="linea_del2_pg1_4" rend="visible" rendition="Line" ulx="753" uly="126" lrx="937" lry="144" />
+                <zone xml:id="linea_del2_pg1_5" rend="visible" rendition="Line" ulx="752" uly="164" lrx="930" lry="181" />
+                <zone xml:id="linea_del2_pg1_6" rend="visible" rendition="Line" ulx="753" uly="200" lrx="826" lry="219" />
+                <zone xml:id="linea_del2_pg1_7" rend="visible" rendition="Line" ulx="797" uly="255" lrx="892" lry="272" />
+                <zone xml:id="linea_del2_pg1_8" rend="visible" rendition="Line" ulx="771" uly="277" lrx="926" lry="310" />
+                <zone xml:id="linea_del2_pg1_9" rend="visible" rendition="Line" ulx="804" uly="320" lrx="897" lry="337" />
+                <zone xml:id="linea_del2_pg1_10" rend="visible" rendition="Line" ulx="774" uly="343" lrx="886" lry="363" />
+                <zone xml:id="linea_del2_pg1_11" rend="visible" rendition="Line" ulx="776" uly="364" lrx="949" lry="394" />
+                <!--testo delibera 2-->
+                <zone xml:id="linea_del2_pg1_12" rend="visible" rendition="Line" ulx="70" uly="9" lrx="745" lry="34" />
+                <zone xml:id="linea_del2_pg1_13" rend="visible" rendition="Line" ulx="34" uly="50" lrx="729" lry="70" />
+                <zone xml:id="linea_del2_pg1_14" rend="visible" rendition="Line" ulx="37" uly="89" lrx="739" lry="112" />
+                <zone xml:id="linea_del2_pg1_15" rend="visible" rendition="Line" ulx="35" uly="125" lrx="718" lry="144" />
+                <zone xml:id="linea_del2_pg1_16" rend="visible" rendition="Line" ulx="37" uly="165" lrx="735" lry="181" />
+                <zone xml:id="linea_del2_pg1_17" rend="visible" rendition="Line" ulx="37" uly="203" lrx="738" lry="218" />
+                <zone xml:id="linea_del2_pg1_18" rend="visible" rendition="Line" ulx="37" uly="240" lrx="732" lry="259" />
+                <zone xml:id="linea_del2_pg1_19" rend="visible" rendition="Line" ulx="39" uly="279" lrx="273" lry="299" />
+                <zone xml:id="linea_del2_pg1_20" rend="visible" rendition="Line" ulx="40" uly="312" lrx="721" lry="337" />
+                <zone xml:id="linea_del2_pg1_21" rend="visible" rendition="Line" ulx="40" uly="350" lrx="723" lry="377" />
+                <zone xml:id="linea_del2_pg1_22" rend="visible" rendition="Line" ulx="41" uly="389" lrx="734" lry="415" />
+                <zone xml:id="linea_del2_pg1_23" rend="visible" rendition="Line" ulx="596" uly="424" lrx="735" lry="459" />
+                <zone xml:id="linea_del2_pg1_24" rend="visible" rendition="Line" ulx="45" uly="466" lrx="743" lry="486" />
+                <zone xml:id="linea_del2_pg1_25" rend="visible" rendition="Line" ulx="47" uly="504" lrx="752" lry="523" />
+                <zone xml:id="linea_del2_pg1_26" rend="visible" rendition="Line" ulx="46" uly="540" lrx="523" lry="564" />
+                <zone xml:id="linea_del2_pg1_27" rend="visible" rendition="Line" ulx="76" uly="581" lrx="732" lry="600" />
+                <zone xml:id="linea_del2_pg1_28" rend="visible" rendition="Line" ulx="45" uly="618" lrx="755" lry="642" />
+                <zone xml:id="linea_del2_pg1_29" rend="visible" rendition="Line" ulx="45" uly="656" lrx="747" lry="680" />
+                <zone xml:id="linea_del2_pg1_30" rend="visible" rendition="Line" ulx="44" uly="691" lrx="738" lry="713" />
+                <zone xml:id="linea_del2_pg1_31" rend="visible" rendition="Line" ulx="45" uly="734" lrx="775" lry="755" />
+            </surface>
+            <surface n="2" xml:id="surf_del2_pg2">
+                <graphic url='Delibera_20-6_1940_p2.jpg' width='950.4px' height='586.4px' />
+                <!--num in alto pagina 2-->  
+                <zone xml:id="linea_del2_pg2_1" rend="visible" rendition="Line" ulx="568" uly="87" lrx="634" lry="121" />
+                <!--testo delibera 2 pagina 2-->
+                <zone xml:id="linea_del2_pg2_2" rend="visible" rendition="Line" ulx="501" uly="157" lrx="667" lry="179" />
+                <zone xml:id="linea_del2_pg2_3" rend="visible" rendition="Line" ulx="208" uly="193" lrx="934" lry="218" />
+                <zone xml:id="linea_del2_pg2_4" rend="visible" rendition="Line" ulx="239" uly="232" lrx="905" lry="251" />
+                <zone xml:id="linea_del2_pg2_5" rend="visible" rendition="Line" ulx="240" uly="268" lrx="399" lry="288" />
+                <zone xml:id="linea_del2_pg2_6" rend="visible" rendition="Line" ulx="207" uly="303" lrx="926" lry="329" />
+                <zone xml:id="linea_del2_pg2_7" rend="visible" rendition="Line" ulx="237" uly="337" lrx="901" lry="363" />
+                <zone xml:id="linea_del2_pg2_8" rend="visible" rendition="Line" ulx="237" uly="373" lrx="429" lry="400" />
+                <zone xml:id="linea_del2_pg2_9" rend="visible" rendition="Line" ulx="237" uly="413" lrx="932" lry="437" />
+                <zone xml:id="linea_del2_pg2_10" rend="visible" rendition="Line" ulx="201" uly="452" lrx="935" lry="476" />
+                <zone xml:id="linea_del2_pg2_11" rend="visible" rendition="Line" ulx="199" uly="490" lrx="940" lry="512" />
+                <zone xml:id="linea_del2_pg2_12" rend="visible" rendition="Line" ulx="198" uly="528" lrx="630" lry="548" />
+            </surface>
+        </surfaceGrp>
+        <surfaceGrp xml:id="del_3">
+            <surface n="1" xml:id="surf_del3_pg1">
+                <graphic url='Delibera_7-12_1940_p1.jpg' width='950.4px' height='194.4px'/>
+                <!--Intestazione del 3 -->
+                <zone xml:id="linea_del3_pg1_1" rend="visible" rendition="Line" ulx="814" uly="30" lrx="887" lry="57"/>
+                <zone xml:id="linea_del3_pg1_2" rend="visible" rendition="Line" ulx="764" uly="66" lrx="941" lry="89"/>
+                <!--testo del3-->
+                <zone xml:id="linea_del3_pg1_3" rend="visible" rendition="Line" ulx="71" uly="34" lrx="758" lry="57"/>
+                <zone xml:id="linea_del3_pg1_4" rend="visible" rendition="Line" ulx="50" uly="68" lrx="759" lry="91"/>
+            </surface> 
+            <surface n="2" xml:id="surf_del3_pg2">
+                <graphic url='Delibera_7-12_1940_p2.jpg' width='950.4px' height='1416.4px'/>    
+                <!--num in alto-->
+                <zone xml:id="linea_del3_pg2_1" rend="visible" rendition="Line" ulx="547" uly="18" lrx="646" lry="60"/>
+                <!--intestazione continuo-->
+                <zone xml:id="linea_del3_pg2_2" rend="visible" rendition="Line" ulx="8" uly="100" lrx="198" lry="132"/>
+                <zone xml:id="linea_del3_pg2_3" rend="visible" rendition="Line" ulx="8" uly="141" lrx="196" lry="171"/>
+                <zone xml:id="linea_del3_pg2_4" rend="visible" rendition="Line" ulx="8" uly="179" lrx="164" lry="208"/>
+                <zone xml:id="linea_del3_pg2_5" rend="visible" rendition="Line" ulx="8" uly="216" lrx="159" lry="244"/>
+                <zone xml:id="linea_del3_pg2_6" rend="visible" rendition="Line" ulx="7" uly="257" lrx="136" lry="281"/>
+                <zone xml:id="linea_del3_pg2_7" rend="visible" rendition="Line" ulx="3" uly="292" lrx="159" lry="333"/>
+                <zone xml:id="linea_del3_pg2_8" rend="visible" rendition="Line" ulx="43" uly="341" lrx="150" lry="367"/>
+                <zone xml:id="linea_del3_pg2_9" rend="visible" rendition="Line" ulx="15" uly="369" lrx="176" lry="401"/>
+                <zone xml:id="linea_del3_pg2_10" rend="visible" rendition="Line" ulx="48" uly="407" lrx="159" lry="431"/>
+                <zone xml:id="linea_del3_pg2_11" rend="visible" rendition="Line" ulx="18" uly="432" lrx="141" lry="456"/>
+                <zone xml:id="linea_del3_pg2_12" rend="visible" rendition="Line" ulx="20" uly="460" lrx="190" lry="481"/>
+                <zone xml:id="linea_del3_pg2_13" rend="visible" rendition="Line" ulx="201" uly="104" lrx="923" lry="128"/>
+                <zone xml:id="linea_del3_pg2_14" rend="visible" rendition="Line" ulx="200" uly="143" lrx="931" lry="167"/>
+                <zone xml:id="linea_del3_pg2_15" rend="visible" rendition="Line" ulx="199" uly="178" lrx="931" lry="210"/>
+                <zone xml:id="linea_del3_pg2_16" rend="visible" rendition="Line" ulx="199" uly="215" lrx="917" lry="246"/>
+                <zone xml:id="linea_del3_pg2_17" rend="visible" rendition="Line" ulx="196" uly="253" lrx="924" lry="280"/>
+                <zone xml:id="linea_del3_pg2_18" rend="visible" rendition="Line" ulx="226" uly="287" lrx="931" lry="319"/>
+                <zone xml:id="linea_del3_pg2_19" rend="visible" rendition="Line" ulx="195" uly="326" lrx="458" lry="358"/>
+                <zone xml:id="linea_del3_pg2_20" rend="visible" rendition="Line" ulx="224" uly="364" lrx="760" lry="397"/>
+                <zone xml:id="linea_del3_pg2_21" rend="visible" rendition="Line" ulx="221" uly="402" lrx="932" lry="429"/>
+                <zone xml:id="linea_del3_pg2_22" rend="visible" rendition="Line" ulx="659" uly="440" lrx="935" lry="476"/>
+                <zone xml:id="linea_del3_pg2_23" rend="visible" rendition="Line" ulx="223" uly="480" lrx="926" lry="509"/>        
+                <zone xml:id="linea_del3_pg2_24" rend="visible" rendition="Line" ulx="193" uly="516" lrx="941" lry="545"/>
+                <zone xml:id="linea_del3_pg2_25" rend="visible" rendition="Line" ulx="194" uly="552" lrx="940" lry="585"/>
+                <zone xml:id="linea_del3_pg2_26" rend="visible" rendition="Line" ulx="191" uly="592" lrx="609" lry="623"/>
+                <zone xml:id="linea_del3_pg2_27" rend="visible" rendition="Line" ulx="221" uly="627" lrx="937" lry="660"/>
+                <zone xml:id="linea_del3_pg2_28" rend="visible" rendition="Line" ulx="191" uly="663" lrx="924" lry="699"/>
+                <zone xml:id="linea_del3_pg2_29" rend="visible" rendition="Line" ulx="196" uly="708" lrx="919" lry="737"/>
+                <zone xml:id="linea_del3_pg2_30" rend="visible" rendition="Line" ulx="194" uly="745" lrx="921" lry="773"/>
+                <zone xml:id="linea_del3_pg2_31" rend="visible" rendition="Line" ulx="194" uly="781" lrx="907" lry="813"/>
+                <zone xml:id="linea_del3_pg2_32" rend="visible" rendition="Line" ulx="192" uly="820" lrx="357" lry="853"/>
+                <zone xml:id="linea_del3_pg2_33" rend="visible" rendition="Line" ulx="226" uly="856" lrx="919" lry="888"/>
+                <zone xml:id="linea_del3_pg2_34" rend="visible" rendition="Line" ulx="193" uly="891" lrx="895" lry="929"/>
+                <zone xml:id="linea_del3_pg2_35" rend="visible" rendition="Line" ulx="194" uly="935" lrx="902" lry="967"/>
+                <zone xml:id="linea_del3_pg2_36" rend="visible" rendition="Line" ulx="194" uly="973" lrx="901" lry="995"/>
+                <zone xml:id="linea_del3_pg2_37" rend="visible" rendition="Line" ulx="191" uly="1008" lrx="734" lry="1042"/>
+                <zone xml:id="linea_del3_pg2_38" rend="visible" rendition="Line" ulx="223" uly="1047" lrx="893" lry="1075"/>
+                <zone xml:id="linea_del3_pg2_39" rend="visible" rendition="Line" ulx="191" uly="1083" lrx="919" lry="1112"/>
+                <zone xml:id="linea_del3_pg2_40" rend="visible" rendition="Line" ulx="189" uly="1123" lrx="543" lry="1154"/>
+                <zone xml:id="linea_del3_pg2_41" rend="visible" rendition="Line" ulx="218" uly="1160" lrx="921" lry="1193"/>
+                <zone xml:id="linea_del3_pg2_42" rend="visible" rendition="Line" ulx="185" uly="1200" lrx="341" lry="1234"/>
+                <zone xml:id="linea_del3_pg2_43" rend="visible" rendition="Line" ulx="217" uly="1237" lrx="908" lry="1266"/>
+                <zone xml:id="linea_del3_pg2_44" rend="visible" rendition="Line" ulx="183" uly="1274" lrx="906" lry="1308"/>
+                <zone xml:id="linea_del3_pg2_45" rend="visible" rendition="Line" ulx="189" uly="1314" lrx="918" lry="1349"/>            
+            </surface>
+            <surface n="3" xml:id="surf_del3_pg3">
+                <graphic url='Delibera_7-12_1940_p3.jpg' width='950.4px' height='1410.4px' />  
+                <!--num in alto, timbro con cancellature-->
+                <zone xml:id="linea_del3_pg3_1" rend="visible" rendition="Line" ulx="338" uly="22" lrx="425" lry="66"/>
+                <zone xml:id="linea_del3_pg3_2" rend="visible" rendition="Line" ulx="579" uly="33" lrx="905" lry="73"/>
+                <zone xml:id="linea_del3_pg3_3" rend="visible" rendition="Line" ulx="578" uly="81" lrx="812" lry="103" />
+                <zone xml:id="linea_del3_pg3_4" rend="visible" rendition="Line" ulx="725" uly="105" lrx="856" lry="135"/>
+                <zone xml:id="linea_del3_pg3_5" rend="visible" rendition="Line" ulx="867" uly="80" lrx="947" lry="171"/>
+                <!--testo delibera 3 pagina 3-->
+                <zone xml:id="linea_del3_pg3_6" rend="visible" rendition="Line" ulx="65" uly="138" lrx="777" lry="165"/>
+                <zone xml:id="linea_del3_pg3_7" rend="visible" rendition="Line" ulx="61" uly="168" lrx="768" lry="199"/>
+                <zone xml:id="linea_del3_pg3_8" rend="visible" rendition="Line" ulx="61" uly="202" lrx="780" lry="237"/>
+                <zone xml:id="linea_del3_pg3_9" rend="visible" rendition="Line" ulx="61" uly="245" lrx="724" lry="273"/>
+                <zone xml:id="linea_del3_pg3_10" rend="visible" rendition="Line" ulx="344" uly="281" lrx="520" lry="312"/>
+                <zone xml:id="linea_del3_pg3_11" rend="visible" rendition="Line" ulx="59" uly="315" lrx="769" lry="347"/>
+                <zone xml:id="linea_del3_pg3_12" rend="visible" rendition="Line" ulx="92" uly="354" lrx="265" lry="383"/>
+                <zone xml:id="linea_del3_pg3_13" rend="visible" rendition="Line" ulx="96" uly="387" lrx="760" lry="419"/>
+                <zone xml:id="linea_del3_pg3_14" rend="visible" rendition="Line" ulx="63" uly="426" lrx="714" lry="454"/>
+                <zone xml:id="linea_del3_pg3_15" rend="visible" rendition="Line" ulx="65" uly="462" lrx="789" lry="497"/>
+                <zone xml:id="linea_del3_pg3_16" rend="visible" rendition="Line" ulx="94" uly="501" lrx="670" lry="532"/>
+                <zone xml:id="linea_del3_pg3_17" rend="visible" rendition="Line" ulx="62" uly="539" lrx="663" lry="568"/>
+                <zone xml:id="linea_del3_pg3_18" rend="visible" rendition="Line" ulx="66" uly="580" lrx="658" lry="608"/>
+                <zone xml:id="linea_del3_pg3_19" rend="visible" rendition="Line" ulx="68" uly="616" lrx="788" lry="643"/>
+                <zone xml:id="linea_del3_pg3_20" rend="visible" rendition="Line" ulx="533" uly="649" lrx="783" lry="689"/>
+                <zone xml:id="linea_del3_pg3_21" rend="visible" rendition="Line" ulx="66" uly="692" lrx="749" lry="716"/>
+                <zone xml:id="linea_del3_pg3_22" rend="visible" rendition="Line" ulx="99" uly="724" lrx="585" lry="753"/>
+                <zone xml:id="linea_del3_pg3_23" rend="visible" rendition="Line" ulx="61" uly="759" lrx="569" lry="792"/>
+                <zone xml:id="linea_del3_pg3_24" rend="visible" rendition="Line" ulx="94" uly="799" lrx="761" lry="828"/>
+                <zone xml:id="linea_del3_pg3_25" rend="visible" rendition="Line" ulx="63" uly="832" lrx="757" lry="864"/>
+                <zone xml:id="linea_del3_pg3_26" rend="visible" rendition="Line" ulx="65" uly="871" lrx="669" lry="899"/>
+                <zone xml:id="linea_del3_pg3_27" rend="visible" rendition="Line" ulx="65" uly="905" lrx="658" lry="930"/>
+                <zone xml:id="linea_del3_pg3_28" rend="visible" rendition="Line" ulx="66" uly="941" lrx="564" lry="973"/>
+                <zone xml:id="linea_del3_pg3_29" rend="visible" rendition="Line" ulx="96" uly="980" lrx="757" lry="1011"/>
+                <zone xml:id="linea_del3_pg3_30" rend="visible" rendition="Line" ulx="69" uly="1018" lrx="633" lry="1046"/>
+                <zone xml:id="linea_del3_pg3_31" rend="visible" rendition="Line" ulx="69" uly="1051" lrx="770" lry="1085"/>
+                <zone xml:id="linea_del3_pg3_32" rend="visible" rendition="Line" ulx="68" uly="1090" lrx="767" lry="1122"/>
+                <zone xml:id="linea_del3_pg3_33" rend="visible" rendition="Line" ulx="67" uly="1128" lrx="769" lry="1154"/>
+                <zone xml:id="linea_del3_pg3_34" rend="visible" rendition="Line" ulx="68" uly="1159" lrx="770" lry="1189"/>
+                <zone xml:id="linea_del3_pg3_35" rend="visible" rendition="Line" ulx="67" uly="1198" lrx="641" lry="1230"/>
+                <zone xml:id="linea_del3_pg3_36" rend="visible" rendition="Line" ulx="68" uly="1234" lrx="773" lry="1262"/>
+                <zone xml:id="linea_del3_pg3_37" rend="visible" rendition="Line" ulx="68" uly="1270" lrx="661" lry="1299"/>
+                <zone xml:id="linea_del3_pg3_38" rend="visible" rendition="Line" ulx="69" uly="1308" lrx="773" lry="1330"/>
+            </surface>
+            <surface n="4" xml:id="surf_del3_pg4">
+                <graphic url='Delibera_7-12_1940_p4.jpg' width='950.4px' height='601.4px' />
+                <!--num in alto-->
+                <zone xml:id="linea_del3_pg4_1" rend="visible" rendition="Line" ulx="570" uly="68" lrx="656" lry="106" />
+                <!--testo delibera 3 pagina 4-->
+                <zone xml:id="linea_del3_pg4_2" rend="visible" rendition="Line" ulx="188" uly="138" lrx="836" lry="160" />
+                <zone xml:id="linea_del3_pg4_3" rend="visible" rendition="Line" ulx="212" uly="175" lrx="919" lry="200" />
+                <zone xml:id="linea_del3_pg4_4" rend="visible" rendition="Line" ulx="189" uly="211" lrx="816" lry="233" />
+                <zone xml:id="linea_del3_pg4_5" rend="visible" rendition="Line" ulx="214" uly="246" lrx="847" lry="267" />
+                <zone xml:id="linea_del3_pg4_6" rend="visible" rendition="Line" ulx="212" uly="279" lrx="917" lry="305" />
+                <zone xml:id="linea_del3_pg4_7" rend="visible" rendition="Line" ulx="187" uly="317" lrx="804" lry="341" />
+                <zone xml:id="linea_del3_pg4_8" rend="visible" rendition="Line" ulx="209" uly="355" lrx="926" lry="381" />
+                <zone xml:id="linea_del3_pg4_9" rend="visible" rendition="Line" ulx="655" uly="387" lrx="921" lry="420" />
+                <zone xml:id="linea_del3_pg4_10" rend="visible" rendition="Line" ulx="228" uly="426" lrx="918" lry="449" />
+                <zone xml:id="linea_del3_pg4_11" rend="visible" rendition="Line" ulx="186" uly="459" lrx="908" lry="486" />
+                <zone xml:id="linea_del3_pg4_12" rend="visible" rendition="Line" ulx="186" uly="502" lrx="896" lry="521" />
+                <zone xml:id="linea_del3_pg4_13" rend="visible" rendition="Line" ulx="187" uly="536" lrx="714" lry="562" />
+            </surface>   
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <group>
+            <!--Codifica testo delibera del 17/10/1939-->  
+            <text xml:id="testodel0">
+                <front>
+                    <head><num>1/816</num><pc>.</pc> Iniziativa per erigere a <placeName ref="#Spezia">La Spezia</placeName> un monumento a <persName ref="#CostanzoCiano">Costanzo Ciano</persName></head>
+                </front>
+                <body>
+                    <!--delibera 0 Pagina 1-->
+                    <pb xml:id="del0_pg1" n="1" facs="#surf_del0_pg1"/>
+                    <ab n="1">
+                        <lb n="1" facs="#linea_del0_pg1_1"/> 
+                        <date when="17/10/1939">17 Ott. 1939</date>
+                        <lb n="2" facs="#linea_del0_pg1_2"/> 
+                        <num value="892">892</num>
+                        <lb n="3" facs="#linea_del0_pg1_3"/> 
+                        <hi rend="underlined"><choice><abbr>N<pc>.</pc></abbr><expan>Numero</expan></choice> <num value="50">50</num> d'ORDINE</hi>    <date when="17/10/1939">17 Ottobre 1939</date> - <num type="ordinal" value="17">XVII°</num>
+                        <lb n="4" facs="#linea_del0_pg1_4"/> 
+                        L'anno <num value="1939">millenovecentotrentanove</num> &#40;<num type="ordinal" value="17">XVII° &#41;</num> ed alli <num value="17">diciassette</num> del
+                        <lb n="5" facs="#linea_del0_pg1_5"/> 
+                        mese di ottobre a <placeName ref="#Spezia">La Spezia</placeName> in una sala del <placeName ref="#PalazzoCivico">Civico Palazzo</placeName>;
+                        <lb n="6" facs="#linea_del0_pg1_6"/> 
+                        IL Podestà
+                        <lb n="7" facs="#linea_del0_pg1_7"/> 
+                        <persName ref="#TullioDallAra"><choice><abbr>Cav<pc>.</pc> Uff<pc>.</pc> Avv<pc>.</pc></abbr><expan>Cavaliere Ufficiale Avvocato</expan></choice> Tullio DALL'ARA</persName>
+                        <lb n="8" facs="#linea_del0_pg1_8"/> 
+                        con l'assistenza del Segretario Generale del Comune <choice><abbr>Comm<pc>.</pc></abbr><expan>Commissario</expan></choice> <choice><abbr>Dott<pc>.</pc></abbr><expan>Dottore</expan></choice>
+                        <lb n="9" facs="#linea_del0_pg1_9"/>
+                        <persName ref="#FrancescoAgnese">Francesco AGNESE</persName>
+                        <lb n="10" facs="#linea_del0_pg1_10"/> 
+                        <milestone unit="section" rend="line"/>
+
+                        <lb n="11" facs="#linea_del0_pg1_11"/>    
+                        <num value="1">1</num>/<num value="816">816</num>
+                        <lb n="12" facs="#linea_del0_pg1_12"/>  
+                        INIZIATIVA PER
+                        <lb n="13" facs="#linea_del0_pg1_13"/>  
+                        ERIGERE A LA SP<hi rend="underlined">E</hi>
+                        <lb n="14" facs="#linea_del0_pg1_14" break="no"/> 
+                        ZIA UN MONUMENTO
+                        <lb n="15" facs="#linea_del0_pg1_15"/> 
+                        A <persName ref="#CostanzoCiano"> Costanzo Ciano</persName><pc>.</pc>
+                        <lb n="16" facs="#linea_del0_pg1_16"/> 
+                        <lb n="17" facs="#linea_del0_pg1_17"/> 
+                        <hi style="color:purple">PUBBLICATA</hi>
+                        <lb n="18" facs="#linea_del0_pg1_18"/> 
+                        <hi hand="#firma_doc0">il <hi rend="underline"><date>17/10/1939</date></hi></hi> <choice><abbr>N.</abbr><expan>Numero</expan></choice><hi rend="underline" hand="#firma_doc2">1405</hi>
+                        <lb n="19" facs="#linea_del0_pg1_19"/> 
+                        <hi style="color:purple">Approvata</hi>
+                        <lb n="20" facs="#linea_del0_pg1_20"/> 
+                        <hi style="color:purple">dalla <orgName ref="#GpaSpezia"><choice><abbr>G.P.A</abbr><expan>Giunta Provinciale Amministrativa</expan></choice></orgName></hi>
+                        <lb n="21" facs="#linea_del0_pg1_21"/> 
+                        <hi hand="#firma_doc0">il <hi rend="underline"><date>27/10/1939</date></hi></hi> <choice><abbr>N.</abbr><expan>Numero</expan></choice><hi rend="underline" hand="#firma_doc2">16858</hi>
+                        
+                        <lb n="22" facs="#linea_del0_pg1_22"/> 
+                        Interprete della volontà della cittadinanza tutta  di questo Capo-
+                        <lb n="23" facs="#linea_del0_pg1_23" break="no"/>
+                        luogo, di veder consacrato a <persName ref="#CostanzoCiano">Costanzo Ciano</persName> un degno monumento che
+                        <lb n="24" facs="#linea_del0_pg1_24"/>
+                        &#40;indelebile segno d’onore, di amore e di gratitudine per quanto
+                        <lb n="25" facs="#linea_del0_pg1_25"/>
+                        Egli operò a favore dell’Italia e de <placeName ref="#Spezia">la Spezia</placeName>&#41; alle generazioni
+                        <lb n="26" facs="#linea_del0_pg1_26"/>
+                        future rappresenti l'orgoglio della nostra città di averlo avuto a
+                        <lb n="27" facs="#linea_del0_pg1_27"/>
+                        lungo per ospite, nell’ardente giovinezza guerriera;
+                        <lb n="28" facs="#linea_del0_pg1_28"/>
+                        Considerato che l'iniziativa dovrebbe assurgere ad una solenne
+                        <lb n="29" facs="#linea_del0_pg1_29"/>
+                        affermazioni di fede di tuttla la Provincia nei valori eterni del-
+                        <lb n="30" facs="#linea_del0_pg1_30"/>
+                        l'ardimento e della gloria;
+                        <lb n="31" facs="#linea_del0_pg1_31"/>
+                        Considerato che per il carattere storico dell'Uomo che si vuole
+                        <lb n="32" facs="#linea_del0_pg1_32"/>
+                        così onorare e che particolarmente unisce in sè quanto di più alte
+                        <lb n="33" facs="#linea_del0_pg1_33"/>
+                        fu nell’Italia dell’anteguerra e della guerra, e quanto più di piò gene-
+                        <lb n="34" facs="#linea_del0_pg1_34" break="no"/>
+                        roso ed eroico fu nell'Italia della Rivoluzione Fascista e dell’im-
+                        <lb n="35" facs="#linea_del0_pg1_35" break="no"/>
+                        pero, il monumento dovrà essere adeguato alla memoria di Lui, e dovrà
+                        <lb n="36" facs="#linea_del0_pg1_36"/>
+                        così - per esprimere in modo accessibile al popolo ciò che Egli fu
+                        <lb n="37" facs="#linea_del0_pg1_37"/>
+                        e ciò che Egli fece - sorgere a dominio di tratto largo di mare, 
+                        <lb n="38" facs="#linea_del0_pg1_38"/>
+                        qual’è il nostro Golfo;
+                        <lb n="39" facs="#linea_del0_pg1_39"/>
+                        Ritenute che la spesa occorrente risulta di <measure type="lire" quantity="150000"><choice><abbr>L<pc>.</pc></abbr><expan>Lire</expan></choice>150.000</measure>,- per l’ese-
+                        <lb n="40" facs="#linea_del0_pg1_40" break="no"/>
+                        cuzione del basamento e della figura artistica, il tutto consegnate
+                        <lb n="41" facs="#linea_del0_pg1_41"/>
+                        a piè d’opera, oltre l’importo dei lavori di fondazione, e il collo-
+                        <lb n="42" facs="#linea_del0_pg1_42" break="no"/>
+                        camento a posto del monumento;
+                        <lb n="43" facs="#linea_del0_pg1_43"/>
+                        Considerata l’opportunità di fare eseguire il lavoro allo sculto-
+                        <lb n="44" facs="#linea_del0_pg1_44" break="no"/>
+                        re <persName ref="#FrancescoMessina"><roleName>Prof<pc>.</pc></roleName> Francesco Messina</persName>;
+                        <lb n="45" facs="#linea_del0_pg1_45"/>
+                        <hi rend="uppercase" style="text-align: center">DELIBERA</hi>
+                    </ab>
+                    <!--delibera 0 Pagina 2-->
+                    <pb xml:id="del0_pg2" n="2"  facs="#surf_del0_pg2"/>
+                    <ab n="2">
+                        <lb n="1" facs="#linea_del0_pg2_1"/>
+                        <unclear reason="faded" agent="time"  style="text-align: center"><num value="893">893</num></unclear>
+                        <lb n="2" facs="#linea_del0_pg2_2"/>
+                        a&#41; di assumere l'iniziativa perché a <placeName ref="#Spezia">La Spezia</placeName> si innalzi un monume<hi rend="underline">n</hi>
+                        <lb n="3" break= "no" facs="#linea_del0_pg2_3"/>
+                        to a <persName ref="#CostanzoCiano"><name>Costanzo</name> <surname>Ciano</surname></persName>, Eroe di <placeName ref="#Cortellazzo">Cortellazzo</placeName> e di <placeName ref="#Buccari">Buccari</placeName>, indomito
+                        <lb n="4" facs="#linea_del0_pg2_4"/>
+                        alfiere della Rivoluzione Fascista<pc>;</pc>
+                        <lb n="5" facs="#linea_del0_pg2_5"/>
+                        b&#41; che il proposito si realizzi con il contributo di questo <placeName ref="#ComuneSpezia">Comune</placeName>
+                        <lb n="6" facs="#linea_del0_pg2_6"/>
+                        Capoluogo e con i contributi di tutti i Comuni della Provincia,
+                        <lb n="7" facs="#linea_del0_pg2_7"/>
+                        e con quelli dei maggiori Enti pubblici di essa, che ne saranno
+                        <lb n="8" facs="#linea_del0_pg2_8"/>
+                        richiesti<pc>;</pc>
+                        <lb n="9" facs="#linea_del0_pg2_9"/>
+                        c&#41; di conferire l'incarico dell'esecuzione dell'opera artistica allo
+                        <lb n="10" facs="#linea_del0_pg2_10"/>
+                        <persName ref="#FrancescoMessina">scultore <choice><abbr>Prof<pc>.</pc></abbr><expan>professore</expan></choice><name> Francesco </name><surname>Messina </surname></persName>dell<orgName ref="#ABrera">Accademia di Brera </orgName>di <placeName ref="#Milano">Mil<hi rend="underline">a</hi></placeName>
+                        <lb n="11" break="no" facs="#linea_del0_pg2_11"/>
+                        <placeName ref="#Milano">no</placeName>, che accetta mediante pagamento dell'onorario complessivo di
+                        <lb n="12" facs="#linea_del0_pg2_12"/>
+                        <measure type="lire" quantity="150000"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>150<pc>.</pc>000</measure> per la figura artistica in bronzo e il basamento, il
+                        <lb n="13" facs="#linea_del0_pg2_13"/>
+                        tutto da consegnarsi a pié d'opera, rimanendo a carico del com-
+                        <lb n="14" break="no" facs="#linea_del0_pg2_14"/>
+                        mittente la spesa di fondazione e del collocamento a posto del
+                        <lb n="15" facs="#linea_del0_pg2_15"/>
+                        monumento<pc>;</pc>
+                        <lb n="16" facs="#linea_del0_pg2_16"/>
+                        d&#41; di finanziare il contributo che spetterà al <placeName ref="#ComuneSpezia">Comune de La Spezia</placeName>
+                        <lb n="17" facs="#linea_del0_pg2_17"/>
+                        con apposito stanziamento da inscriversi nel Bilancio del pros-
+                        <lb n="18" break="no" facs="#linea_del0_pg2_18"/>
+                        simo esercizio<pc>.</pc>
+                        <lb n="19" facs="#linea_del0_pg2_19"/>
+                        <milestone unit="section" rend="line"/>
+                        <lb n="20" facs="#linea_del0_pg2_20"/>
+                        Letto, confermato e sottoscritto
+                        <lb n="21" facs="#linea_del0_pg2_21"/>
+                        <hi style="text-align: right">IL <orgName ref="#PodestàLaSpezia">PODESTA'</orgName></hi>
+                        <lb n="22" facs="#linea_del0_pg2_22"/>
+                        <hi style="text-align: right">&#40;<choice><abbr>Avv<pc>.</pc></abbr><expan>Avvocato</expan></choice><persName ref="#TullioDallAra"><name> Tullio</name><surname> DALL'ARA</surname></persName>&#41;</hi>
+                        <lb n="23" facs="#linea_del0_pg2_23"/>
+                        <hi style="text-align: right"><unclear xml:id="timbro0" reason="faded" agent="time" style="text-align: right">LA SPEZIA COMUNE</unclear> <hi hand="#firma_doc1"><hi rend="underline">Tullio Dall'Ara</hi></hi></hi>
+                        <lb n="24" facs="#linea_del0_pg2_24"/>
+                        <hi style="text-align: left">IL SEGRETARIO GENERALE</hi>
+                        <lb n="25" facs="#linea_del0_pg2_25"/>
+                        <hi style="text-align: left">&#40;<choice><abbr>Dott<pc>.</pc></abbr><expan>Dottor</expan></choice><persName ref="#FrancescoAgnese"><name> Francesco</name><surname> AGNESE</surname></persName>&#41;</hi>
+                        <lb n="26" facs="#linea_del0_pg2_26"/>
+                        <hi style="text-align: left"><hi hand="#firma_doc0"><hi rend="italic">Fr</hi></hi></hi>
+                    </ab>
+                </body>
+            </text>
+            <!--Codifica testo delibera del 26/02/1940-->  
+            <text xml:id="testodel1">
+                <front>
+                    <head><num>185</num><pc>.</pc> Lavori Di Fondazione e collocamento a posto del monumento a <persName ref="#CostanzoCiano">Costanzo Ciano</persName></head>
+                </front>
+                <body>
+                    <!--delibera 1 Pagina 1-->
+                    <pb xml:id ="del1_pg1" n="1" facs="#surf_del1_pg1" />
+                    <ab n="1">
+                        <lb n="1" facs="#linea_del1_pg1_1"/>
+                        <num value="185">185<pc>.</pc></num>
+                        <lb n="2" facs="#linea_del1_pg1_2"/>
+                        LAVORI DI FOND<hi rend="underline">A</hi>
+                        <lb n="3" break="no" facs="#linea_del1_pg1_3"/>
+                        ZIONE E COLLOCA-
+                        <lb n="4" break="no" facs="#linea_del1_pg1_4"/>
+                        MENTO A POSTO
+                        <lb n="5" facs="#linea_del1_pg1_5"/>
+                        DEL MONUMENTO
+                        <lb n="6" facs="#linea_del1_pg1_6"/>
+                        A <persName ref="#CostanzoCiano"><name>Costanzo</name> <surname>Ciano</surname></persName>
+                        <lb n="7" facs="#linea_del1_pg1_7"/>
+                        <lb n="8" facs="#linea_del1_pg1_8"/>
+                        <hi style="color:purple">PUBBLICATA</hi>
+                        <lb n="9" facs="#linea_del1_pg1_9"/>
+                        <hi hand="#firma_doc1">il <hi rend="underline"><date>27/02/1940</date></hi></hi> <choice><abbr>N.</abbr><expan>Numero</expan></choice><hi rend="underline" hand="#firma_doc1">255</hi>
+                        <lb n="10" facs="#linea_del1_pg1_10"/>
+                        <hi style="color:purple">Vista dal <orgName ref="#PrefetturaSpezia">Prefetto</orgName></hi>
+                        <lb n="11" facs="#linea_del1_pg1_11"/>
+                        <hi hand="#firma_doc1">il <hi rend="underline"><date>27/02/1940</date></hi></hi> <choice><abbr>N.</abbr><expan>Numero</expan></choice><hi rend="underline" hand="#firma_doc1">3330</hi>
+                        
+                        <lb n="12" facs="#linea_del1_pg1_12"/>
+                        Richiamata la propria deliberazione <choice><abbr>n<pc>.</pc></abbr><expan>numero</expan></choice> del <date when="17/10/1939">17 ottobre 1939</date>/
+                        <lb n="13" break="no" facs="#linea_del1_pg1_13"/>
+                        <num type="ordinal" value="17">XVII</num>, superiormente approvata, con la quale adottava provvedimenti 
+                        <lb n="14" facs="#linea_del1_pg1_14"/>
+                        in ordine al monumento a <persName ref="#CostanzoCiano"><name>Costanzo</name> <surname>Ciano</surname></persName> da erigersi in questo Co-
+                        <lb n="15" break="no" facs="#linea_del1_pg1_15"/>
+                        mune Capoluogo nell'ubicazione prescelta al centro dell'aiuola
+                        <lb n="16" facs="#linea_del1_pg1_16"/>
+                        fronteggiante la facciata a mare del <placeName ref="#PalazzoGoverno">Palazzo del Governo</placeName>;
+                    
+                        
+                        <lb n="17" facs="#linea_del1_pg1_17"/>
+                        Considerata l'urgenza di provvedere ai lavori di fondazione ed
+                        <lb n="18" facs="#linea_del1_pg1_18"/>
+                        accessori pel collocamento a posto dell’opera tosto che questa sarà
+                        <lb n="19" facs="#linea_del1_pg1_19"/>
+                        stata consegnata dallo <persName ref="#FrancescoMessina">scultore <choice><abbr>Prof<pc>.</pc></abbr><expan>professore</expan></choice> <name>Francesco</name> <surname>Messina</surname></persName>, giusta il
+                        <lb n="20" facs="#linea_del1_pg1_20"/>
+                        disposto, <choice><abbr>lett<pc>.</pc></abbr><expan>lettera</expan></choice> c&#41; della citata deliberazione;
+            
+                    
+                        <lb n="21" facs="#linea_del1_pg1_21"/>
+                        Vista la relazione tecnica ed il computo metrico-estimativo all<hi rend="underline">e</hi>
+                        <lb n="22" break="no" facs="#linea_del1_pg1_22"/>
+                        stiti dal dipendente <orgName ref="#UfficioMunicipaleSpezia">ufficio municipale dei <choice><abbr>LL<pc>.</pc>PP<pc>.</pc></abbr><expan> Lavori Pubblici</expan></choice></orgName> circa la natura 
+                        <lb n="23" facs="#linea_del1_pg1_23"/>
+                        i quantitativi e le modalità costruttive dei lavori di che trattasi;
+                    
+                    
+                        <lb n="24" facs="#linea_del1_pg1_24"/>
+                        Visto che la spesa all'uopo occorrente ascende a complessive Li-
+                        <lb n="25" break="no" facs="#linea_del1_pg1_25"/>
+                        re <num value="23.000">23.000 (ventitremila)</num> così ripartita:
+                        <lb n="26" facs="#linea_del1_pg1_26"/>
+                        1&#41; opere da appaltarsi <hi rend="leader">...............................</hi><measure type="lire" quantity="17855"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>17.855</measure>,-
+                        <lb n="27" facs="#linea_del1_pg1_27"/>
+                        2&#41; a disposizione per la esecuzione in economia:
+                    </ab>
+
+                    <!--delibera 1 Pagina 2-->
+                    <pb xml:id="del1_pg2" n="2" facs="#surf_del1_pg2"/>
+                    <ab n="2">
+                        <lb n="1" facs="#linea_del1_pg2_1"/>
+                        <unclear reason="faded" agent="time"  style="text-align: center"><num value="190">190</num></unclear>
+                            
+                        <lb n="2" facs="#linea_del1_pg2_2"/>    
+                        a&#41; della posa in opera del rivestimento del basamento con le lastre
+                        <lb n="lbitem_1" facs="#linea_del1_pg2_3"/>
+                        e blocchi di travertino che saranno provvisti dallo scultore, 
+                        <lb n="3" facs="#linea_del1_pg2_4"/>
+                        <hi  style="text-align: right"><measure type="lire" quantity="1575"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>1.575</measure>,-</hi>
+                        <lb n="4" facs="#linea_del1_pg2_5"/>
+                        b&#41; del collocamento della statua <hi rend="leader">...................</hi><hi rend="apex">“</hi> <num value="1000">1.000</num>,-  
+                        <lb n="l5" facs="#linea_del1_pg2_6"/>   
+                        c&#41; per eventuali imprevisti <hi rend="leader">........................</hi><hi rend="underline"><hi rend="apex">“</hi> <num value="2570">2.570</num>,-</hi> 
+                        <lb n="6" facs="#linea_del1_pg2_7"/>
+                        <hi style="text-align: right">Totale<hi rend="leader">.........</hi><hi rend="underline"><measure type="lire" quantity="23000"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>23.000</measure>,-</hi></hi>
+                       
+                        <lb n="7" facs="#linea_del1_pg2_8"/>
+                        Ritenute giustificate e convenienti le motivate proposte del pre
+                        <lb n="8" break="no" facs="#linea_del1_pg2_9"/>
+                        fato ufficio;
+                        <lb n="9" facs="#linea_del1_pg2_10"/>
+                        Considerato che la <orgName ref="#SANinoFerrari"><choice><abbr>Soc<pc>.</pc> An<pc>.</pc></abbr><expan>Società Anonima</expan></choice><choice><abbr> Ing<pc>.</pc></abbr><expan>Ingegnere</expan></choice> Nino Ferrari</orgName>, che offre le necess<hi rend="underline">a</hi>
+                        <lb n="10" break="no" facs="#linea_del1_pg2_11"/>
+                        rie garanzie di idoneità, interpellate in merito, si è dichiarata
+                        <lb n="11" facs="#linea_del1_pg2_12"/>
+                        disposta ad assumere la esecuzione dei lavori a base dell’appalto
+                        <lb n="12" facs="#linea_del1_pg2_13"/>
+                        nei modi e termini ed ai prezzi unitari indicati negli atti tecnici
+                        <lb n="13" facs="#linea_del1_pg2_14"/>
+                        anzidetti; 
+                    
+                        <lb n="14" facs="#linea_del1_pg2_15"/>
+                        Ritenuta vantaggiosa l’offerta così pervenuta; 
+                        <lb n="15" facs="#linea_del1_pg2_16"/>
+                        Visto l’<choice><abbr>art<pc>.</pc></abbr><expan>articolo</expan></choice><num value="87">87</num> della vigente legge comunale e provinciale;
+                        
+                    
+                        <lb n="16" facs="#linea_del1_pg2_17"/>
+                        <hi rend="uppercase" style="text-align: center">DELIBERA</hi>
+                        <lb n="17" facs="#linea_del1_pg2_18"/>
+                        a&#41; di approvare gli atti tecnici &#40;relazione e computo metrico-esti-
+                        <lb n="18" break="no" facs="#linea_del1_pg2_19"/>
+                        mativo&#41; in data <date when="15/02/1940">15.2.1940</date>/<num type="ordinal" value="17">XVII°</num>, predisposti dall’<orgName ref="#UfficioMunicipaleSpezia">Ufficio munic<hi rend="underline">i</hi></orgName>
+                        <lb n="19" break="no" facs="#linea_del1_pg2_20"/>
+                        <orgName ref="#UfficioMunicipaleSpezia">pale dei <choice><abbr>LL<pc>.</pc>PP<pc>.</pc></abbr><expan> Lavori Pubblici</expan></choice></orgName> in ordine alla esecuzione dei lavori di fondazi<hi rend="underline">o</hi>
+                        <lb n="20" break="no" facs="#linea_del1_pg2_21"/>
+                        ne ed al collocamento a posto del monumento a <persName ref="#CostanzoCiano">Costanzo Ciano</persName>, nel
+                        <lb n="21" facs="#linea_del1_pg2_22"/>
+                        centro dell’aiuola fronteggiante la facciata a mare del <placeName ref="#PalazzoGoverno">Palazzo</placeName>
+                        <lb n="22" facs="#linea_del1_pg2_23"/>
+                        <placeName ref="#PalazzoGoverno">del Governo;</placeName>
+                        <lb n="23" facs="#linea_del1_pg2_24"/>    
+                        b&#41; di approvare la conseguente spesa di <measure type="lire" quantity="23000">L.23.000</measure> ripartita come
+                        <lb n="24" facs="#linea_del1_pg2_25"/>
+                        segue:
+                        <lb facs="#linea_del1_pg2_26"/>       
+                        1°&#41; Opere da appaltarsi <hi rend="leader">...........................</hi><measure type="lire" quantity="17855"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>17.855</measure>,-
+                        <lb n="25" facs="#linea_del1_pg2_27"/>            
+                        2°&#41; somma a disposizione per la esecuzione in economia
+                        <lb n="26" facs="#linea_del1_pg2_28"/>
+                        di cui alle premesse <hi rend="leader">................................</hi><measure type="lire" quantity="2575"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>2.575</measure>,-
+                        <lb n="27" facs="#linea_del1_pg2_29"/>
+                        3°&#41; per eventuali imprevisti<hi rend="leader">......................</hi><hi rend="underline"><hi rend="apex">“</hi> <num value="2570">2.570</num>,-</hi>
+                        <lb n="28" facs="#linea_del1_pg2_30"/>
+                        <hi style="text-align: right">Totale <space/><hi rend="underline"><measure type="lire" quantity="23000"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>23.000</measure>,-</hi></hi>
+                        <lb n="29" facs="#linea_del1_pg2_31"/>
+                        c&#41; di affidare la esecuzione dei lavori oggetto del <choice><abbr>N<pc>.</pc>l</abbr><expan>Nella Lettera</expan></choice> della pre-
+                        <lb n="30" break="no" facs="#linea_del1_pg2_32"/>
+                        cedente lettera <ref target="#item_del1_b">b&#41;</ref>, a trattativa privata, alla  <orgName ref="#SANinoFerrari"><choice><abbr>Soc<pc>.</pc>An<pc>.</pc></abbr><expan>Società Anonima</expan></choice><choice><abbr>Ing<pc>.</pc></abbr><expan>Ingegnere</expan></choice>Nino</orgName>
+                        <lb n="31" facs="#linea_del1_pg2_33"/>
+                        <orgName ref="#SANinoFerrari">Ferrari</orgName>, nei modi ed ai prezzi indicati nella relazione e comp<hi rend="underline">u</hi>
+                        <lb n="32" facs="#linea_del1_pg2_34"/>
+                        to estimativo anzidetti ed alle seguenti altre particolari con-
+                    </ab>
+
+                    <!--delibera 1 Pagina 3-->
+                    <pb xml:id="del1_pg3" n="3" facs="#surf_del1_pg3"/>
+                    <ab n="3">
+                        <lb n="1" facs="#linea_del1_pg3_1"/>
+                        <unclear reason="faded" agent="time"  style="text-align: center"><num value="190">191</num></unclear>
+                        <lb n="2" facs="#linea_del1_pg3_2"/>
+                        <date when="26/02/1940">26 FEB 1940 <num type="ordinal" value="17">XVII</num></date>
+                        <lb n="3" break="no" facs="#linea_del1_pg3_3"/>
+                        dizioni dalla medesima impresa accettate; 
+                        <lb n="4" facs="#linea_del1_pg3_4"/>
+                        2&#41; pagamento in due rate: la prima, eguale alla metà della somma di
+                        <lb n="5" facs="#linea_del1_pg3_5"/>
+                        deliberamento, a completa ultimazione dei lavori; la seconda, a
+                        <lb n="6" facs="#linea_del1_pg3_6"/>
+                        saldo, previo rilascio del certificato di regolare esecuzione &#40;da
+                        <lb n="7" facs="#linea_del1_pg3_7"/>
+                        compilarsi tre mesi dopo il collocamento della statua&#41;, a’ sensi
+                        <lb n="8" facs="#linea_del1_pg3_8"/>
+                        e per gli effetti degli <choice><abbr>art<pc>.</pc></abbr><expan>articolo</expan></choice><num value="3">3</num>&#41; del <choice><abbr>R<pc>.</pc>D<pc>.</pc>L<pc>.</pc></abbr><expan>Regio Decreto Legislativo</expan></choice> <date when="28/08/1924">28 Agosto 1924</date>, <choice><abbr>n<pc>.</pc></abbr><expan>numero</expan></choice><num value="1396">1396</num>
+                        <lb n="9" facs="#linea_del1_pg3_9"/>
+                        e l <choice><abbr>lett.</abbr><expan>lettera</expan></choice> <ref target="#item_del1_b">b&#41;</ref> della legge <date when="27/05/1926">27 Maggio 1926</date>, <choice><abbr>n.</abbr><expan>numero</expan></choice><num value="1013">1013</num>;
+                        <lb n="10" facs="#linea_del1_pg3_10"/>           
+                        3&#41; Obbligo dell’impresa di assicurare gli operai contro gli infort<hi rend="underline">u</hi>
+                        <lb n="11" break="no" facs="#linea_del1_pg3_11"/>
+                        ni sul lavoro, la disoccupazione involontaria, l’invalidità e
+                        <lb n="12" facs="#linea_del1_pg3_12"/>
+                        vecchiaia, la tubercolosi <choice><abbr>etc<pc>.</pc></abbr><expan>eccetera</expan></choice>, a termine delle vigenti leggi
+                        <lb n="13" facs="#linea_del1_pg3_13"/>
+                        e regolamenti e di adempiere ad ogni altro suo obbligo in mat<hi rend="underline">e</hi>
+                        <lb n="14" break="no" facs="#linea_del1_pg3_14"/>
+                        ria di rapporti di lavoro;
+                        <lb n="15" facs="#linea_del1_pg3_15"/>             
+                        4&#41; esonero dal versamento del deposito cauzionale;
+                        <lb n="16" facs="#linea_del1_pg3_16"/>
+                        5&#41; osservanza, per quanto potesse occorrere, delle norme di carat-
+                        <lb n="17" break="no" facs="#linea_del1_pg3_17"/>
+                        tere generale contenute nel vigente capitolato d’appalto a stam-
+                        <lb n="18" break="no" facs="#linea_del1_pg3_18"/>
+                        pa per gli appalti delle opere da eseguirsi per conto del <placeName ref="#ComuneSpezia">Comune</placeName>
+                        <lb n="19" facs="#linea_del1_pg3_19"/>
+                        e successive disposizioni di legge con attinenza alla materia; 
+                        <lb n="20" facs="#linea_del1_pg3_20"/>      
+                        d&#41; di provvedere in economia al rivestimento del basamento ed al
+                        <lb n="21" facs="#linea_del1_pg3_21"/>
+                        collocamento a posto dell’opera<pc>.</pc>
+                            
+                        <lb n="22" facs="#linea_del1_pg3_22"/>
+                        Alla presunta spesa di <measure type="lire" quantity="23000"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>23.000</measure>,- sarà fatto fronte con antici-
+                        <lb n="23" break="no" facs="#linea_del1_pg3_23"/>
+                        pazione sull’<choice><abbr>art<pc>.</pc></abbr><expan>articolo</expan></choice><num value="147">147</num> - <choice><abbr>imp.</abbr><expan>impegno</expan></choice><num>23</num> &#40;<choice><abbr>contab<pc>.</pc></abbr><expan>contabilità</expan></choice> speciali <choice><abbr>Bil<pc>.</pc></abbr><expan>Bilancio</expan></choice> per l’eserci-
+                        <lb n="24" break="no" facs="#linea_del1_pg3_24"/>
+                        zio in corso (<choice><abbr>Tit<pc>.</pc></abbr><expan>Titolo</expan></choice><num type="ordinal" value="3">III°</num> - <choice><abbr>Cat<pc>.</pc></abbr><expan>Catalogo</expan></choice><num type="ordinal">I</num>) da reintegrarsi coi contributi dei 
+                        <lb n="25" facs="#linea_del1_pg3_25"/>
+                        vari Enti sottoscrittori<pc>.</pc>
+                    </ab>
+                </body>
+            </text>
+            <!--Codifica della delibera del 20/06/1940-->
+            <text xml:id="testodel2">
+                <front>
+                    <head><num>525</num><pc>.</pc> Lavori di fondazione e collocamento a posto del monumento a <persName>Costanzo Ciano</persName><pc>.</pc> </head>
+                </front>
+                <body>
+                    <!--delibera 2 Pagina 1-->
+                    <pb xml:id ="del2_pg1" n="1" facs="#surf_del2_pg1"/>
+                    <ab n="1" xml:id="txt2_pg1_1">
+                        <lb n="1" facs="#linea_del2_pg1_1"/>
+                        <num value="525">525<pc>.</pc></num>
+                        <lb n="2" facs="#linea_del2_pg1_2"/>
+                        LAVORI DI FONDAZI<hi rend="underline">O</hi>
+                        <lb n="3" break="no" facs="#linea_del2_pg1_3"/>
+                        NE E COLLOCAMENTO
+                        <lb n="4" facs="#linea_del2_pg1_4"/>
+                        A POSTO DEL MONU-
+                        <lb n="5" break="no" facs="#linea_del2_pg1_5"/>
+                        MENTO A <persName ref="#CostanzoCiano">COSTANZO</persName>
+                        <lb n="6" facs="#linea_del2_pg1_6"/>
+                        <persName>CIANO</persName><pc>.</pc>
+                        <lb n="7" facs="#linea_del2_pg1_7"/>
+                        <hi style="color:purple">PUBBLICATA</hi>
+                        <lb n="8" facs="#linea_del2_pg1_8"/>
+                        <hi hand="#firma_doc2">il <hi rend="underline"><date>20/06/1940</date></hi></hi> <choice><abbr>N.</abbr><expan>Numero</expan></choice><hi rend="underline" hand="#firma_doc2">872</hi>
+                        <lb n="9" facs="#linea_del2_pg1_9"/>
+                        <hi style="color:purple">Approvata</hi>
+                        <lb n="10" facs="#linea_del2_pg1_10"/>
+                        <hi style="color:purple">dalla <orgName ref="#GpaSpezia"><choice><abbr>G.P.A</abbr><expan>Giunta Provinciale Amministrativa</expan></choice></orgName></hi>
+                        <lb n="11" facs="#linea_del2_pg1_11"/>
+                        <hi hand="#firma_doc2">il <hi rend="underline"><date>26/07/1940</date></hi></hi> <choice><abbr>N.</abbr><expan>Numero</expan></choice><hi rend="underline" hand="#firma_doc2">10521/577</hi>
+                        <lb n="12" break="no" facs="#linea_del2_pg1_12"/>
+                        Richiamata la propria deliberazione <choice><abbr>n<pc>.</pc></abbr><expan>numero</expan></choice> <num value="185">185<pc>.</pc></num> del <date when="26/02/1940"> 26 febbraio 1940</date>/
+                        <lb n="13" facs="#linea_del2_pg1_13"/>
+                        <num type="ordinal" value="18">XVIII</num>, resa esecutiva con visto prefettizio <choice><abbr>n<pc>.</pc></abbr><expan>numero</expan></choice><num value="3330">3330</num>, <choice><abbr>Div<pc>.</pc></abbr><expan>Divisione</expan></choice><num type="ordinal" value="4">IV</num> del <num value="27">27</num>
+                        <lb n="14" facs="#linea_del2_pg1_14"/>
+                        stesso mese, giusta la quale mentre si approvavano gli atti tecn<hi rend="underline">i</hi>
+                        <lb n="15" break="no" facs="#linea_del2_pg1_15"/>
+                        ci predisposti dall'<orgName ref="#UfficioMunicipaleSpezia">Ufficio Municipale dei <choice><abbr>LL<pc>.</pc>PP</abbr><expan>Lavori Pubblici</expan></choice></orgName> in ordine alla
+                        <lb n="16" facs="#linea_del2_pg1_16"/>
+                        esecuzione dei lavori di fondazione ed al collocamento a posto del
+                        <lb n="17" facs="#linea_del2_pg1_17"/>
+                        monumento a <persName ref="#CostanzoCiano"><name>Costanzo</name> <surname>Ciano</surname></persName> nel centro dell'aiuola fronteggiante la
+                        <lb n="18" facs="#linea_del2_pg1_18"/>
+                        la facciata a mare del <placeName ref="#PalazzoGoverno">Palazzo del Governo</placeName> e la conseguente spesa di
+                        <lb n="19" facs="#linea_del2_pg1_19"/>
+                        <num value="23000">23<pc>.</pc>000</num> così ripartita:
+                        <lb n="20" facs="#linea_del2_pg1_20"/>
+                        1&#41;Opere in appalto<hi rend="leader">......................</hi><measure type="lire" quantity="17855"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>17<pc>.</pc>855</measure>,-
+                        <lb n="21" facs="#linea_del2_pg1_21"/>
+                        2&#41;Somma a disposizione per lavori in economia<hi rend="leader">.......</hi>"<measure type="lire" quantity="2575">2<pc>.</pc>575</measure>,-
+                        <lb n="22" facs="#linea_del2_pg1_22"/>
+                        3&#41; Per eventuali imprevisti<hi rend="leader">......................</hi>"<hi rend="underline"><measure type="lire" quantity="2570">2<pc>.</pc>570</measure>,-</hi>
+                        <lb n="23" facs="#linea_del2_pg1_23"/>
+                        <hi rend="underline"><measure type="lire" quantity="23000"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>23<pc>.</pc>000</measure>,-</hi>   
+                        <lb n="24" facs="#linea_del2_pg1_24"/>
+                        si disponeva la esecuzione dei lavori oggetto del precedente <choice><abbr>n<pc>.</pc></abbr><expan>numero</expan></choice><num value="1">1</num> a
+                        <lb n="25" facs="#linea_del2_pg1_25"/>
+                        mezzo della <orgName ref="#SANinoFerrari"><choice><abbr>Soc<pc>.</pc> An<pc>.</pc> Ing<pc>.</pc> </abbr><expan>Società Anonima Ingegner</expan></choice>Nino Ferrari</orgName> alla quale venivano affidati con
+                        <lb n="26" facs="#linea_del2_pg1_26"/>
+                        atto di sottomissione <date when ="4/04/1940">4.4.1940</date> <num type="ordinal" value="18">XVIII</num>° <choice><abbr>n<pc>.</pc></abbr><expan>numero</expan></choice><num value="1676">1<pc>.</pc>676</num><pc>;</pc>    
+                        <lb n="27" facs="#linea_del2_pg1_27"/>
+                        Attesoché, essendosi manifestata la necessità della esecuzione
+                        <lb n="28" facs="#linea_del2_pg1_28"/>
+                        di nuovi e maggiori lavori in confronto di quelli inizialmente pre-
+                        <lb n="29" break="no" facs="#linea_del2_pg1_29"/>
+                        visti, lo stesso <orgName ref="#UfficioMunicipaleSpezia">Ufficio Municipale dei <choice><abbr>LL<pc>.</pc>PP</abbr><expan>Lavori Pubblici</expan></choice></orgName> ha predisposto so<hi rend="underline">t</hi>
+                        <lb n="30" break="no" facs="#linea_del2_pg1_30"/>
+                        to la data del <date when="7/06/1940">7 giugno 1940</date><num type="ordinal" value="18">XVIII</num> la relativa perizia suppletiva
+                        <lb n="31" facs="#linea_del2_pg1_31"/>
+                        comportante una ulteriore spesa di <measure type="lire" quantity="14500"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>14<pc>.</pc>500</measure> interamente giustificata<pc>;</pc>
+                    </ab>
+                    <!--delibera 2 Pagina 2-->
+                    <pb n="2" xml:id ="del2_pg2" facs="#surf_del2_pg2"/>
+                    <ab n="2" xml:id="txt2_pg2_1">
+                        <lb n="1" facs="#linea_del2_pg2_1"/>
+                        <unclear reason="faded" agent="time" style="text-align: center"><num value="536">536</num></unclear>
+                        <lb n="2" facs="#linea_del2_pg2_2"/>
+                        <hi rend="uppercase" style="text-align: center">DELIBERA</hi>
+                        <lb n="3" facs="#linea_del2_pg2_3"/>
+                        a&#41; di approvare la perizia suppletiva di cui alle premesse in ordine
+                        <lb n="4" facs="#linea_del2_pg2_4"/>
+                        ai lavori di fondazione e collocamento a posto del monumento a
+                        <lb n="5" facs="#linea_del2_pg2_5"/>
+                        <persName ref="#CostanzoCiano"><name>Costanzo</name> <surname>Ciano</surname></persName><pc>.</pc>
+                        <lb n="6" facs="#linea_del2_pg2_6"/>
+                        b&#41; di fronteggiare la conseguente spesa di <measure type="lire" quantity="14500"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>14<pc>.</pc>500</measure> con anticipazi<hi rend="underline">o</hi>
+                        <lb n="7" break="no" facs="#linea_del2_pg2_7"/>
+                        ne sull'<choice><abbr>art<pc>.</pc></abbr><expan>articolo</expan></choice><num value="147">147</num> &#40;contabilità speciali dell'esercizio in corso&#41;
+                        <lb n="8" facs="#linea_del2_pg2_8"/>
+                        <choice><abbr>Tit<pc>.</pc></abbr><expan>Titolo</expan></choice><num type="ordinal" value="3">III</num> - <choice><abbr>Cat<pc>.</pc></abbr><expan>Catalogo</expan></choice> <num type="ordinal" value="1">I</num>&#41;<pc>.</pc>
+                        <lb n="9" facs="#linea_del2_pg2_9"/>
+                        Si dà atto che i nuovi e i maggiori lavori cui la perizia anzidetta
+                        <lb n="10" facs="#linea_del2_pg2_10"/>
+                        si riferisce verranno eseguiti dalla <orgName ref="#SANinoFerrari"><choice><abbr>Soc<pc>.</pc> An<pc>.</pc> Ing<pc>.</pc></abbr><expan>Società Anonima Ingegner</expan></choice> Nino Ferrari</orgName>, ag-
+                        <lb n="11" break="no" facs="#linea_del2_pg2_11"/>
+                        giudicataria delle opere principali, alle condizioni di cui al citato
+                        <lb n="12" facs="#linea_del2_pg2_12"/>
+                        atto di sottomissione <date when ="4/04/1940">4.4.1940</date> - <num type="ordinal" value="18">XVIII</num>°<pc>.</pc>
+                    </ab>
+                </body>
+            </text>
+            <!--Codifica delibera del 07/12/1940-->
+            <text xml:id="testodel3"> 
+                <front>
+                    <head><num>1073</num><pc>.</pc> LIQUIDAZIONE DEI LAVORI DI FONDAZIONE E COLLOCAMENTO A POSTO DEL MONUMENTO A <persName ref="#CostanzoCiano"><choice><abbr>C<pc>.</pc></abbr><expan>Costanzo</expan></choice> CIANO</persName><pc>.</pc></head>
+                </front>  
+                <body>
+                    <!--delibera 3 Pagina 1-->
+                    <pb xml:id ="del3_pg1" n="1" facs="#surf_del3_pg1"/>
+                    <ab n="1">
+                        <lb n="1" facs='#linea_del3_pg1_1'/>
+                        <num value="1073">1073<pc>.</pc></num>
+                        <lb n="2" facs='#linea_del3_pg1_2'/>
+                        LIQUIDAZIONE DEI
+                        <lb n="3" facs="#linea_del3_pg1_3"/>
+                        Premesso che per la esecuzione dei lavori di fondazione e coll<hi rend="underline">o</hi>
+                        <lb n="4" break="no" facs="linea_del3_pg1_4"/>
+                        camento a posto del monumentino a <persName ref="#CostanzoCiano"><choice><abbr>C<pc>.</pc></abbr><expan>Costanzo</expan></choice> Ciano</persName> in questa Città, è stata
+                    </ab>
+
+                    <!--delibera 3 Pagina 2-->
+                    <pb xml:id ="del3_pg2" n="2" facs="#surf_del3_pg2"/>
+                    <ab n="2">
+                        <lb n="1" facs="#linea_del3_pg2_1"/>
+                        <unclear xml:id="num_in_alto_3" reason="faded" agent="time" style="text-align: center"><num value="1074">1074</num></unclear>
+                        <lb n="2" facs="#linea_del3_pg2_2"/>
+                        DEI LAVORI DI FO<hi rend="underline">N</hi>
+                        <lb n="3" break="no" facs="#linea_del3_pg2_3"/>
+                        DAZIONE E COLLOC<hi rend="underline">A</hi>
+                        <lb n="4" break="no" facs="#linea_del3_pg2_4"/>
+                        MENTO A POSTO 
+                        <lb n="5" facs="#linea_del3_pg2_5"/>
+                        DEL MONUMENTO
+                        <lb n="6" facs="#linea_del3_pg2_6"/>
+                        A <persName ref="#CostanzoCiano"><choice><abbr>C<pc>.</pc></abbr><expan>Costanzo</expan></choice> CIANO</persName><pc>.</pc>
+                        <lb n="7" facs="#linea_del3_pg2_7"/>
+                        <lb n="8" facs="#linea_del3_pg2_8"/>
+                        <hi style="color:purple">PUBBLICATA</hi>
+                        <lb n="9" facs="#linea_del3_pg2_9"/>
+                        <hi rend="underline">il <hi hand="#firma_doc2"><date>13/12/1940</date></hi></hi> <choice><abbr>N.</abbr><expan>Numero</expan></choice><hi rend="underline" hand="#firma_doc2">1550</hi>
+                        <lb n="10" facs="#linea_del3_pg2_10"/>
+                        <hi style="color:purple">Approvata</hi>
+                        <lb n="11" facs="#linea_del3_pg2_11"/>
+                         <hi style="color:purple">dalla <orgName ref="#GpaSpezia"><choice><abbr>G<pc>.</pc> P<pc>.</pc> A<pc>.</pc></abbr><expan>Giunta Provinciale Amministrativa</expan></choice></orgName></hi>
+                        <lb n="12" facs="#linea_del3_pg2_12"/>
+                        <hi rend="underline">il <hi hand="#firma_doc2"><date>31/01/1940</date></hi></hi> <choice><abbr>N.</abbr><expan>Numero</expan></choice><hi rend="underline" hand="#firma_doc2">20474/78</hi>
+                       
+                        <lb n="13" facs="#linea_del3_pg2_13"/>
+                        approvata la complessiva spesa di <measure type="lire" quantity="37500"><choice><abbr>L.</abbr><expan>lire</expan></choice>37.500</measure>, ripartita come appresso, 
+                        <lb n="14" facs="#linea_del3_pg2_14"/>
+                        giusta le relative deliberazioni <date when="26/02/1940">26 febbraio 1940</date> - <num type="ordinal" value="18">XVIII°</num> <choice><abbr>n<pc>.</pc></abbr><expan>numero</expan></choice><num>185</num> e <num value="18">18</num>
+                        <lb n="15" facs="#linea_del3_pg2_15"/>
+                        <date when="18/06/1940">giugno 1940</date> <num type="ordinal" value="18">XVIII°</num> <choice><abbr>n<pc>.</pc></abbr><expan>numero</expan></choice><num value="525">525</num>, approvate come dai rispettivi visti prefet_
+                        <lb n="16" break="no" facs="#linea_del3_pg2_16"/>
+                        tizi <choice><abbr>nn<pc>.</pc></abbr><expan>numero</expan></choice><num value="3330">3330</num> e <num value="10521">10521</num> del <date when="27/02/1940">27 febbraio</date> e <date when="27/02/1940">27 giugno 1940</date>-<num type="ordinal" value="18">XVIII</num> <choice><abbr>Div<pc>.</pc></abbr><expan>Divisione</expan></choice><num type="ordinal" value="4">IV</num>;
+                        <lb n="17" facs="#linea_del3_pg2_17"/>
+                        a&#41; opere in appalto <choice><abbr>L<pc>.</pc></abbr><expan>Lire</expan></choice> &#40;<num value="17855">17.855</num> + <num value="14500">14.500</num> comprese <measure type="lire" quantity="1295,20"><choice><abbr>L.</abbr><expan>lire</expan></choice>1295,20</measure> per eve<hi rend="underline">n</hi>
+                        <lb n="18" break="no" facs="#linea_del3_pg2_18"/>
+                        tuali imprevisti&#41; = <hi rend="leader">.................................</hi><measure type="lire" quantity="32355"><choice><abbr>L.</abbr><expan>lire</expan></choice>32.355</measure>,-
+                        <lb n="19" facs="#linea_del3_pg2_19"/>
+                        b&#41; somma a disposizione:
+                        <lb n="20" facs="#linea_del3_pg2_20"/>
+                        1&#41; per i lavori in economia<hi rend="leader">.............</hi><measure type="lire" quantity="2575"><choice><abbr>L.</abbr><expan>lire</expan></choice>2.575</measure>,-    
+                        <lb n="21" facs="#linea_del3_pg2_21"/>        
+                        2&#41; " per altri imprevisti <hi rend="leader">.................</hi>"<num value="2570">2570</num>,-  <hi rend="underline"> <num value="5145">5.145</num>,-</hi>
+                        <lb n="22" facs="#linea_del3_pg2_22"/>
+                        <hi style="text-align: right">Totale<hi rend="leader">......</hi><hi rend="underline"><measure type="lire" quantity="37500"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>37.500</measure>,-</hi></hi>
+                        <lb n="23" facs="#linea_del3_pg2_23"/>
+                        Attesoché i lavori in appalto vennero affidati alla <orgName ref="#SANinoFerrari"><choice><abbr>Soc<pc>.</pc> An<pc>.</pc> Ing<pc>.</pc></abbr><expan>Società Anonima Ingegner</expan></choice></orgName>
+                        <lb n="24" facs="#linea_del3_pg2_24"/>
+                        <orgName ref="#SANinoFerrari">Nino Ferrari</orgName> nei modi ed ai prezzi indicati negli appositi atti tecni_
+                        <lb n="25" break="no" facs="#linea_del3_pg2_25"/>
+                        ci, come da atti di sottomissione <date when="04/04/1940">4 aprile</date> e <date when="08/08/1940">8 agosto 1940</date>-<num type="ordinal" value="18">XVIII°</num> <choice><abbr>nn<pc>.</pc></abbr><expan>numeri</expan></choice>
+                        <lb n="26" facs="#linea_del3_pg2_26"/>
+                        <num value="16676">16676</num> e <num value="16820">16820</num>, debitamente registrati;
+                        <lb n="27" facs="#linea_del3_pg2_27"/>
+                        Visto che l'importo di essi ascende a <measure type="lire" quantity="32830"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>32.830</measure>, giusta il relativo
+                        <lb n="28" facs="#linea_del3_pg2_28"/>
+                        conto finale accettato dall'impresa e l'apposito certificato di re-
+                        <lb n="29" break="no" facs="#linea_del3_pg2_29"/>
+                        golare esecuzione dei lavori stessi predisposti dalla Direzione dei
+                        <lb n="30" facs="#linea_del3_pg2_30"/>
+                        lavori, a' sensi e per gli effetti del combinato disposto degli <choice><abbr>art<pc>.</pc></abbr><expan>articoli</expan></choice>
+                        <lb n="31" facs="#linea_del3_pg2_31"/>
+                        <num value="3">3</num> del <choice><abbr>R<pc>.</pc>D<pc>.</pc>L</abbr><expan>Regio Decreto Legge</expan></choice> <date when="28/08/1924">28.8.1924</date>, <choice><abbr>n<pc>.</pc></abbr><expan>numero</expan></choice><num value="1396">1396</num> e <num type="ordinal" value="1">I</num> <choice><abbr>lett<pc>.</pc></abbr><expan>lettera</expan></choice> b&#41; della legge <date when="27/05">27 maggio</date>
+                        <lb n="32" facs="#linea_del3_pg2_32"/>
+                        <num value="1926">1926</num> - <choice><abbr>n<pc>.</pc></abbr><expan>numero</expan></choice><num value="1013">1013</num>;                    
+                        <lb n="33" facs="#linea_del3_pg2_33"/>
+                        Visto che la spesa occorsa extra appalto ammonta, secondo la pr<hi rend="underline">o</hi>
+                        <lb n="34" break="no" facs="#linea_del3_pg2_34"/>
+                        posta di liquidazione della prefata Direzione, a complessive Lire
+                        <lb n="35" facs="#linea_del3_pg2_35"/>
+                        <measure type="lire" quantity="15300">15.300</measure> ripartite come al dispositivo della presente deliberazione,
+                        <lb n="36" facs="#linea_del3_pg2_36"/>
+                        oltre <measure type="lire" quantity="2040"><choice><abbr>L<pc>.</pc></abbr><expan>Lire</expan></choice>2040</measure> già pagate alla <orgName ref="#DCarloComana">Ditta Carlo Comana</orgName> di <placeName ref="#Bergamo">Bergamo</placeName> per la
+                        <lb n="37" facs="#linea_del3_pg2_37"/>
+                        fornitura delle basi in travertino per le antenne;
+                        <lb n="38" facs="#linea_del3_pg2_38"/>
+                        Riscontrati conformi alle ordinazioni i lavori e le forniture 
+                        <lb n="39" facs="#linea_del3_pg2_39"/>
+                        extra appalto, lavori e forniture adeguati alle effettive necessità
+                        <lb n="40" facs="#linea_del3_pg2_40"/>
+                        manifestatesi in corso d'opera;
+                        <lb n="41" facs="#linea_del3_pg2_41"/>
+                        Dato atto che la <orgName ref="#SANinoFerrari"><choice><abbr>Soc<pc>.</pc>An<pc>.</pc>Ing<pc>.</pc></abbr><expan>Società Anonima Ingegner</expan></choice> Nino Ferrari</orgName> ha già percepito acconti
+                        <lb n="42" facs="#linea_del3_pg2_42"/>
+                        per <measure type="lire" quantity="29500"><choice><abbr>L</abbr><expan>Lire</expan></choice>.29.500</measure>;
+                        <lb n="43" facs="#linea_del3_pg2_43"/>
+                        Visto che l'imposta dei contributi già versati o da versarsi da
+                        <lb n="44" facs="#linea_del3_pg2_44"/>
+                        questo <placeName ref="#ComuneSpezia">Comune</placeName> e da quello della Provincia, nonché dagli altri enti
+                        <lb n="45" facs="#linea_del3_pg2_45"/>
+                        a titolo di concorso nella spesa per l'erezione del monumento è st<hi rend="underline">a</hi>
+                    </ab>
+
+                    <!--delibera 3 Pagina 3-->
+                    <pb xml:id ="del3_pg3" n="1" facs="#surf_del3_pg3"/>
+                    <ab n="1" xml:id="txt3_pg3_1" >
+                        <lb n="1" facs="#linea_del3_pg3_1"/>
+                        <unclear xml:id="num_in_alto_4" reason="faded" agent="time" style="text-align: center"><num value="1075">1075</num></unclear> 
+                        <lb n="2" facs="#linea_del3_pg3_2"/>
+                        <unclear xml:id="timbro1" reason="faded" agent="time" style="text-align: right"><hi rend="strikethrough">Visto per bollo <choice><abbr>N.</abbr><expan>Numero</expan></choice></hi></unclear>
+                        <lb n="3" facs="#linea_del3_pg3_3"/>
+                        <unclear xml:id="timbro2" reason="faded" agent="time" style="text-align: right"><hi rend="strikethrough">esatte lire</hi></unclear>
+                        <lb n="4" facs="#linea_del3_pg3_4"/>
+                        <unclear xml:id="timbro3" reason="faded" agent="time" style="text-align: right"><hi style="color:purple" rend="uppercase">IL PROCURATORE</hi></unclear>
+                        <lb n="5" facs="#linea_del3_pg3_5"/>
+                        <hi style="diagonal" rend="uppercase"><date when="07/12/1940">-7 <choice><abbr>DIC.</abbr><expan>Dicembre</expan></choice> 1940</date></hi>
+                        <lb n="6" facs="#linea_del3_pg3_6"/>
+                        assorbito da pagamenti ed impegni già effettuati od assunti, per cui,
+                        <lb n="7" facs="#linea_del3_pg3_7"/>
+                        in considerazione che l'opera apporta notevole contributo alla sist<hi rend="underline">e</hi>
+                        <lb n="8" break="no" facs="#linea_del3_pg3_8"/>
+                        mazione estetica di un'importante zona cittadina, si reputa opportuno
+                        <lb n="9" facs="#linea_del3_pg3_9"/>
+                        porre a carico del bilancio di questo <placeName ref="#ComuneSpezia">Comune</placeName> le spese indicate<pc>;</pc>
+                        <lb n="10" facs="#linea_del3_pg3_10"/>
+                        <hi rend="uppercase" style="text-align: center">DELIBERA</hi>
+                        <lb n="11" facs="#linea_del3_pg3_11"/>
+                        a&#41; di prendere atto e di approvare la complessiva spesa di <measure type="lire" quantity="48130"><choice><abbr>L.</abbr><expan>lire</expan></choice>48<pc>.</pc>130</measure>
+                        <lb n="12" facs="#linea_del3_pg3_12"/>
+                        così ripartita:   
+                        <lb n="13" facs="#linea_del3_pg3_13"/>
+                        1&#41; per la esecuzione dei lavori appaltati alla <orgName ref="#SANinoFerrari"><choice><abbr>Soc<pc>.</pc>An<pc>.</pc> Ing<pc>.</pc></abbr><expan>Società Anonima Ingegner</expan></choice> Nino</orgName>
+                        <lb n="14" facs="#linea_del3_pg3_14"/>
+                        <orgName ref="#SANinoFerrari">Ferrari</orgName> in ordine alla messa in opera del Monumento a <persName ref="#CostanzoCiano">Costanzo</persName>
+                        <lb n="15" facs="#linea_del3_pg3_15"/>
+                        <persName ref="#CostanzoCiano">Ciano</persName><hi rend="leader">...............................</hi><measure type="lire" quantity="32830"><choice><abbr>L.</abbr><expan>lire</expan></choice>32<pc>.</pc>830</measure>,-
+                        <lb n="16" facs="#linea_del3_pg3_16"/>
+                        2&#41; per i lavori accessori e le provviste eseguite extra
+                        <lb n="17" facs="#linea_del3_pg3_17"/>
+                        appalto in ordine all'oggetto, oltre le <measure type="lire" quantity="2040"><choice><abbr>L.</abbr><expan>lire</expan></choice>2<pc>.</pc>040</measure> già pagate
+                        <lb n="18" facs="#linea_del3_pg3_18"/>
+                        alla <orgName ref="#DCarloComana">Ditta Carlo Comana </orgName>di <placeName ref="#Bergamo">Bergamo</placeName> per la fornitura delle
+                        <lb n="19" facs="#linea_del3_pg3_19"/>
+                        basi in travertino per le antenne, complessive<hi rend="leader">...............</hi>"<measure type="lire" quantity="15300"><choice><abbr>L.</abbr><expan>lire</expan></choice>15<pc>.</pc>300</measure>,-
+                        <lb n="20" facs="#linea_del3_pg3_20"/>
+                        <hi style="text-align: right" rend="UPPERCASE">TOTALE</hi><hi rend="leader">.....</hi><hi rend="underline"><measure type="lire" quantity="48130"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>48<pc>.</pc>130</measure>,-</hi>   
+                        <lb n="21" facs="#linea_del3_pg3_21"/>
+                        b&#41; di prendere atto e di approvare gli atti tecnico-contabili al-
+                        <lb n="22" break="no" facs="#linea_del3_pg3_22"/>
+                        l'uopo predisposti dalla Direzione dei Lavori;
+                        <lb n="23" facs="#linea_del3_pg3_23"/>
+                        c&#41; di approvare conseguentemente, il pagamento:
+                        <lb n="24" facs="#linea_del3_pg3_24"/>
+                        1&#41; della somma di <measure type="lire" quantity="32830"><choice><abbr>L.</abbr><expan>lire</expan></choice> &#40;32<pc>.</pc>830</measure> meno gli acconti già corrisposti in
+                        <lb n="25" facs="#linea_del3_pg3_25"/>
+                        <measure type="lire" quantity="29500"><choice><abbr>L.</abbr><expan>lire</expan></choice>29<pc>.</pc>500</measure>&#41; - <hi rend="leader">..............................</hi>"<measure type="lire" quantity="3330"><choice><abbr>L.</abbr><expan>lire</expan></choice>3<pc>.</pc>330</measure>,-
+                        <lb n="26" facs="#linea_del3_pg3_26"/>
+                        a favore della <orgName ref="#SANinoFerrari"><choice><abbr>S<pc>.</pc>A<pc>.</pc> Ing<pc>.</pc></abbr><expan>Società Anonima Ingegner</expan></choice> Nino Ferrari</orgName> a saldo ed a tacit<hi rend="underline">a</hi>
+                        <lb n="27" facs="#linea_del3_pg3_27"/>
+                        zione di ogni sua spettanza e pretesa in merito ai lavori
+                        <lb n="28" facs="#linea_del3_pg3_28"/>
+                        indicati sotto il <choice><abbr>n.</abbr><expan>numero</expan></choice><num value="1">1</num> della precedente <choice><abbr>lett.</abbr><expan>lettera</expan></choice> a&#41;<pc>;</pc>
+                        <lb n="29" facs="#linea_del3_pg3_29"/>
+                        2&#41; della somma di<hi rend="leader">...................</hi>"<measure type="lire" quantity="15300"><choice><abbr>L.</abbr><expan>lire</expan></choice>15<pc>.</pc>300</measure>,-
+                        <lb n="30" facs="#linea_del3_pg3_30"/>       
+                        compresa l'imposta sull'entrata - a favore delle Ditte
+                        <lb n="31" facs="#linea_del3_pg3_31"/>
+                        sottoindicate per i lavori accessori e le forniture ese-
+                        <lb n="32" break="no" facs="#linea_del3_pg3_32"/> 
+                        guite fuori appalto<pc>.</pc>    <hi style="text-align: right" rend="UPPERCASE">TOTALE</hi><hi rend="leader">.......</hi><hi rend="underline"><measure type="lire" quantity="18630"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>18<pc>.</pc>630</measure>,-</hi>           
+                        <lb n="33" facs="#linea_del3_pg3_33"/>
+                        -<orgName ref="#DittaPellosiniErmando">Ditta Pellosini Ermando</orgName>, per la fornitura di <choice><abbr>n<pc>.</pc></abbr><expan>numero</expan></choice><num value="4">4</num> bandiere complete
+                        <lb n="34" facs="#linea_del3_pg3_34"/>
+                        &#40;due nazionali e due della città&#41; <choice><abbr>fatt.</abbr><expan>fattura</expan></choice> <date when="09/06/1940">9.6.1940</date>-<num type="ordinal" value="17">XVII</num>°, <choice><abbr>n.</abbr><expan>numero</expan></choice><num value="15">15</num> <measure type="lire" quantity="4000"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>4<pc>.</pc>000</measure>,-
+                        <lb n="35" break="no" facs="#linea_del3_pg3_35"/>
+                        -<orgName ref="#SARossiTranquillo"><choice><abbr>Soc<pc>.</pc> An<pc>.</pc></abbr><expan>Società Anonima</expan></choice> Rossi Tranquillo</orgName>, per la fornitura di <choice><abbr>n.</abbr><expan>numero</expan></choice><num value="4">4</num> p<hi rend="underline">a</hi>
+                        <lb n="36" facs="#linea_del3_pg3_36"/>
+                        li greggi piallati, per le antenne, <choice><abbr>fatt.</abbr><expan>fattura</expan></choice> <date when="09/08/1940">9.8.40</date> <choice><abbr>n.</abbr><expan>numero</expan></choice><num value="584">584</num><hi rend="leader">.....</hi>"<measure type="lire" quantity="2120">2<pc>.</pc>120</measure>,-
+                        <lb n="37" facs="#linea_del3_pg3_37"/>
+                        -<orgName ref="#ITNataleToracca">Impresa Trasporti Natale Toracca fu Stefano</orgName>, per il tr<hi rend="underline">a</hi>
+                        <lb n="38" break="no" facs="#linea_del3_pg3_38"/>
+                        sporto dei pali, <choice><abbr>fatt.</abbr><expan>fattura</expan></choice> <date when="20/08/1940">20.8.1940</date> <choice><abbr>n.</abbr><expan>numero</expan></choice><num value="625">625</num><hi rend="leader">................</hi>"<measure type="lire" quantity="80">80</measure>,-
+                    </ab>
+
+                    <!--delibera 3 Pagina 4-->
+                    <pb xml:id ="del3_pg4" n="1" facs="#surf_del3_pg4"/>
+                    <ab n="1" xml:id="txt3_pg4_1" >
+                        <lb n="1" facs="#linea_del3_pg4_1"/>
+                        <unclear xml:id="num_in_alto_5" reason="faded" agent="time" style="text-align: center"><num value="1076">1076</num></unclear>
+                        <lb n="2" facs="#linea_del3_pg4_2"/>
+                        -<orgName ref="#SANinoFerrari"><choice><abbr>S<pc>.</pc>A<pc>.</pc> Ing<pc>.</pc></abbr><expan>Società Anonima Ingegner</expan></choice> Nino Ferrari</orgName>, per il collocamento in opera delle
+                        <lb n="3" facs="#linea_del3_pg4_3"/>
+                        antenne, <choice><abbr>fatt.</abbr><expan>fattura</expan></choice> <date when="03/09/1940">3.9.1940</date> <choice><abbr>n.</abbr><expan>numero</expan></choice><num value="410">410</num><hi rend="leader">.................</hi><measure type="lire" quantity="1200"><choice><abbr>L.</abbr><expan>lire</expan></choice>1<pc>.</pc>200</measure>,-        
+                        <lb n="4" facs="#linea_del3_pg4_4"/>
+                        -<orgName ref="#CantieriCozzani">Cantieri Cozzani</orgName>, per la mano d'opera ed il materiale o<hi rend="underline">c</hi>
+                        <lb n="5" break="no" facs="#linea_del3_pg4_5"/>
+                        corso per la sistemazione ad antenne dei pali forniti dalla
+                        <lb n="6" facs="#linea_del3_pg4_6"/>   
+                        <orgName ref="#SARossiTranquillo">Ditta Rossi</orgName> - <choice><abbr>fatt.</abbr><expan>fattura</expan></choice> <date when="10/09/1940">10.9.1940</date><hi rend="leader">.................</hi><measure type="lire" quantity="5600"><choice><abbr>L.</abbr><expan>lire</expan></choice>5<pc>.</pc>600</measure>,-        
+                        <lb n="7" facs="#linea_del3_pg4_7"/>        
+                        -<orgName ref="#DittaPellosiniErmando">Ditta Pellosini Ermando</orgName>, per la fornitura di <num value="2">2</num> bandi<hi rend="underline">e</hi>
+                        <lb n="8" break="no" facs="#linea_del3_pg4_8"/>
+                        re; una della Provincia ed una del <choice><abbr>P.N.F</abbr><expan>Partito Nazionale Fascista</expan></choice> <choice><abbr>fatt.</abbr><expan>fattura</expan></choice> <date when="14/09/1940">14.9.1940</date> <choice><abbr>n.</abbr><expan>numero</expan></choice><num value="51">51</num><!--......--><hi rend="underlined">-<measure type="lire" quantity="2300">2<pc>.</pc>300</measure>,-</hi>        
+                        <lb n="9" facs="#linea_del3_pg4_9"/>        
+                        <hi style="text-align: right" rend="UPPERCASE">TOTALE</hi><hi rend="leader">.........</hi><hi rend="underline"><measure type="lire" quantity="15300"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>15<pc>.</pc>300</measure>,-</hi>
+                        <lb n="10" facs="#linea_del3_pg4_10"/>
+                        Alla spesa complessiva di <measure type="lire" quantity="18630"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>18<pc>.</pc>630</measure> sarà fatto fronte con i fondi 
+                        <lb n="11" facs="#linea_del3_pg4_11"/>
+                        disponibili in <measure type="lire" quantity="65455"><choice><abbr>L<pc>.</pc></abbr><expan>lire</expan></choice>65<pc>.</pc>455</measure> all'<choice><abbr>art<pc>.</pc></abbr><expan>articolo</expan></choice><num value="56">56</num> - <choice><abbr>Imp.</abbr><expan>impegno</expan></choice><num value="45">45</num> - del <choice><abbr>Bil.</abbr><expan>bilancio</expan></choice><num value="1940">1940</num> - <choice><abbr>Tit.</abbr><expan>titolo</expan></choice><num value="1">1</num>-
+                        <lb n="12" facs="#linea_del3_pg4_12"/>
+                        <choice><abbr>Cap.</abbr><expan>Capitolo</expan></choice><num type="ordinal" value="4">IV</num> - <choice><abbr>Cat.</abbr><expan>Catalogo</expan></choice><num type="ordinal" value="2">II</num>^ "Fondo per cerimonie, ricevimenti, manifestazioni
+                        <lb n="13" facs="#linea_del3_pg4_13"/>
+                        patriottiche e culturali ed altre spese casuali"<pc>.</pc>
+                    </ab>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>
+
+            
